@@ -1,6 +1,7 @@
 {
     "name": "lcai",
     "dependencies": {
-        "arches": "archesproject/arches#stable/6.0.0"
+        "arches": "archesproject/arches#stable/6.0.0",
+        "nvd3": "^1.8.6"
     }
 }
