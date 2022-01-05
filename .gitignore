@@ -1,0 +1,10 @@
+*.pyc
+*.log
+lcai/logs
+lcai/export_deliverables
+lcai/cantaloupe/*
+lcai/media/packages
+lcai/uploadedfiles/*
+lcai/settings_local.py
+.vscode/
+CACHE
