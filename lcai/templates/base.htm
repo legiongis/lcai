@@ -29,13 +29,15 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 {% endif %}
 
 <head>
-    <title>{% block title %}BRNM 3D - {% endblock title %}</title>
+    <title>{% block title %}{{ app_settings.APP_NAME }} - {% endblock title %}</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+
+    <!-- <link rel="shortcut icon" href="{% static 'img/favicon.png' %}" /> -->
 
     <link rel="apple-touch-icon" sizes="180x180" href="{% static 'img/favicon/apple-touch-icon.png' %}">
 	<link rel="icon" type="image/png" sizes="32x32" href="{% static 'img/favicon/favicon-32x32.png' %}">
@@ -44,16 +46,29 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
     {% block css %}
         {% compress css %}
+        <link type="text/x-scss" href="{% static 'css/arches.scss' %}" rel="stylesheet" media="screen">
+    	{% endcompress %}
+        {% if app_settings.ACCESSIBILITY_MODE %}
+        <link href="{% static 'css/accessibility.css' %}" rel="stylesheet">
+        {% endif %}
         <link href="{% static 'css/arches.css' %}" rel="stylesheet">
         <link href="{% static 'css/custom.css' %}" rel="stylesheet">
-        {% endcompress %}
+        <link href="{% static 'css/package.css' %}" rel="stylesheet">
+        <link href="{% static 'css/project.css' %}" rel="stylesheet">
     {% endblock css%}
 
 </head>
 
 <body {% block body_attributes %}class="scroll-y-auto"{% endblock %}>
     {% block loading_mask %}
-    <div class="loading-mask" data-bind="visible:loading()"></div>
+
+    <div class="loading-mask" data-bind="visible: typeof(loading()) === 'boolean' && loading()"></div>
+
+    <div class="loading-mask" style="display: none;" data-bind="visible: typeof(loading()==='string') && loading().length > 0">
+        <div class="loading-mask-string" data-bind="text: loading"></div>
+    </div>
+
+
     {% endblock loading_mask %}
     {% block body %}
 
@@ -61,17 +76,14 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 </body>
 
 {% block javascript %}
-
     {% compress js %}
     <script src="{{ STATIC_URL }}packages/requirejs/require.js"></script>
     {% endcompress %}
-
     {% block pre_require_js %}
     {% endblock pre_require_js %}
 
     {% include 'javascript.htm' %}
     {% include 'config.htm' %}
-
     <script>
         require(["nifty"{% if main_script %},"{{ main_script }}"{% endif %}]);
     </script>
