@@ -680,13 +680,17 @@ opacity:1
 .page-header .icon-circle {
 	padding: 10px;
 }
+.ep-tools-right, .ep-tools-login {
+  height: unset;
+  background-color: black;
+}
 .ep-tools {
 	border: none;
 	color: white;
 	font-weight: 300;
 	text-transform: uppercase;
-    padding-left: 20px;
-    padding-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .ep-tools:hover {
     border: none;
