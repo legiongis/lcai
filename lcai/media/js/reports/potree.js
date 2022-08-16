@@ -7,7 +7,7 @@ define([
     'knockstrap',
     'bindings/chosen',
 ], function (_, ko, ReportViewModel, potreeSetup, arches) {
-    return ko.components.register('potree-report', {
+    return ko.components.register('potree', {
         viewModel: function (params) {
             var self = this;
             params.configKeys = ['nodes'];
@@ -49,6 +49,7 @@ define([
                         filepathWithoutExtension = filepath.replace(/\.[^/.]+$/, "");
                     }
                     window.viewer = new Potree.Viewer(document.getElementById("potree_render_area"));
+                    // potreeSetup.setupPotree("https://lcai-assets.s3.us-west-2.amazonaws.com/pointclouds/paiute-rocks-site/Paiute-Rocks/cloud.js", modelName)
                     potreeSetup.setupPotree(filepathWithoutExtension + "/cloud.js", modelName)
                 }
             }

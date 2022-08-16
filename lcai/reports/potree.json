@@ -1,0 +1,8 @@
+{
+    "name": "Potree Template",
+    "templateid": "50000000-0000-0000-0000-000000000006",
+    "component": "reports/potree",
+    "componentname": "potree",
+    "description": "A custom report.",
+    "defaultconfig": {"nodes": []}
+}
