@@ -53,7 +53,9 @@
 								params: {
 									state: 'report',
 									preview: $parent.report.preview,
-									card: card
+									card: card,
+									pageVm: {...$root, report: $parent.report},
+									hideEmptyNodes: $parent.hideEmptyNodes
 								}
 							} --> <!-- /ko -->
 						</div>
