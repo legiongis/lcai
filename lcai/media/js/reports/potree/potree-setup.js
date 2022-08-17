@@ -25,7 +25,7 @@ define([
     'three-wrapped',
     'binary-heap',
     'tween',
-    'd3',
+    'd3-potree',
     'ol-wrapped',
     'i18next',
     'jstree',
