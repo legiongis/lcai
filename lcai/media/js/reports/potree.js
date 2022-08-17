@@ -15,43 +15,61 @@ define([
 
             self.potreeZipFiles = ko.observableArray([]);
 
+            let cloudJsPath;
             if (self.report.get('tiles')) {
-                var potreeZipFiles = [];
                 self.report.get('tiles').forEach(function (tile) {
-                    _.each(tile.data, function (val) {
-                        if (Array.isArray(val)) {
-                            val.forEach(function (item) {
-
-                                if (item.status &&
-                                    (item.name.split('.').pop() == 'zip')) {
-                                        // Hotfix for status being 'queued' while the file is actually uploaded
-                                        if (item.status == 'queued'){
-                                            let url = arches.urls.uploadedfiles + item.name;
-                                            console.log("setting url: " + url);
-                                            item.url = url;
-                                        }
-                                    potreeZipFiles.push({
-                                        src: item.url,
-                                        name: item.name
-                                    });
-                                }
-                            });
+                    Object.keys(tile.data).forEach(function (key) {
+                        let dataVal = tile.data[key];
+                        if (dataVal && String(dataVal).endsWith("cloud.js")) {
+                            cloudJsPath = dataVal;
                         }
-                    }, self);
-                }, self);
+                    });
+                });
+            }
 
-                if (potreeZipFiles.length > 0) {
-                    self.potreeZipFiles(potreeZipFiles);
-                    let modelName = potreeZipFiles[0].name;
-                    let filepath = potreeZipFiles[0].src;
-                    let filepathWithoutExtension = "";
-                    if (filepath != null) {
-                        filepathWithoutExtension = filepath.replace(/\.[^/.]+$/, "");
+            if (!cloudJsPath) {
+                if (self.report.get('tiles')) {
+                    var potreeZipFiles = [];
+                    self.report.get('tiles').forEach(function (tile) {
+                        _.each(tile.data, function (val) {
+                            if (Array.isArray(val)) {
+                                val.forEach(function (item) {
+
+                                    if (item.status &&
+                                        (item.name.split('.').pop() == 'zip')) {
+                                            // Hotfix for status being 'queued' while the file is actually uploaded
+                                            if (item.status == 'queued'){
+                                                let url = arches.urls.uploadedfiles + item.name;
+                                                console.log("setting url: " + url);
+                                                item.url = url;
+                                            }
+                                        potreeZipFiles.push({
+                                            src: item.url,
+                                            name: item.name
+                                        });
+                                    }
+                                });
+                            }
+                        }, self);
+                    }, self);
+
+                    if (potreeZipFiles.length > 0) {
+                        self.potreeZipFiles(potreeZipFiles);
+                        let modelName = potreeZipFiles[0].name;
+                        let filepath = potreeZipFiles[0].src;
+                        let filepathWithoutExtension = "";
+                        if (filepath != null) {
+                            filepathWithoutExtension = filepath.replace(/\.[^/.]+$/, "");
+                            cloudJsPath = filepathWithoutExtension + "/cloud.js"
+                        }
                     }
-                    window.viewer = new Potree.Viewer(document.getElementById("potree_render_area"));
-                    // potreeSetup.setupPotree("https://lcai-assets.s3.us-west-2.amazonaws.com/pointclouds/paiute-rocks-site/Paiute-Rocks/cloud.js", modelName)
-                    potreeSetup.setupPotree(filepathWithoutExtension + "/cloud.js", modelName)
                 }
+            }
+
+            if (cloudJsPath) {
+                console.log("display pointcloud: "+cloudJsPath)
+                window.viewer = new Potree.Viewer(document.getElementById("potree_render_area"));
+                potreeSetup.setupPotree(cloudJsPath, "pointcloud")
             }
 
             var widgets = [];
