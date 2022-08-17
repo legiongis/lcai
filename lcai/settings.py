@@ -12,7 +12,7 @@ try:
 except ImportError:
     pass
 
-APP_NAME = 'lcai'
+APP_NAME = 'BRNM 3D'
 APP_ROOT = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 STATICFILES_DIRS =  (os.path.join(APP_ROOT, 'media'),) + STATICFILES_DIRS
 
@@ -107,7 +107,7 @@ LOGGING = {
         'file': {
             'level': 'WARNING',  # DEBUG, INFO, WARNING, ERROR
             'class': 'logging.FileHandler',
-            'filename': os.path.join(APP_ROOT, 'arches.log'),
+            'filename': os.path.join(APP_ROOT, 'logs', 'arches.log'),
             'formatter': 'console'
         },
         'console': {
