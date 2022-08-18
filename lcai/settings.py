@@ -22,6 +22,7 @@ SEARCH_COMPONENT_LOCATIONS.append('lcai.search_components')
 TEMPLATES[0]['DIRS'].append(os.path.join(APP_ROOT, 'functions', 'templates'))
 TEMPLATES[0]['DIRS'].append(os.path.join(APP_ROOT, 'widgets', 'templates'))
 TEMPLATES[0]['DIRS'].insert(0, os.path.join(APP_ROOT, 'templates'))
+# TEMPLATES[0]['OPTIONS']['context_processors'].append("lcai.context_processors.load_3d_libraries")
 
 LOCALE_PATHS.append(os.path.join(APP_ROOT, 'locale'))
 
