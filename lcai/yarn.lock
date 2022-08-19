@@ -3104,9 +3104,9 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-three-d-hop@cnr-isti-vclab/3DHOP#4.3:
+three-d-hop@cnr-isti-vclab/3DHOP#4.2:
   version "0.0.0"
-  resolved "https://codeload.github.com/cnr-isti-vclab/3DHOP/tar.gz/a8c145ddc575df5291e073a377d942ff77c34901"
+  resolved "https://codeload.github.com/cnr-isti-vclab/3DHOP/tar.gz/d428e9971538a02457dc0742131771245049a56b"
 
 tinyqueue@^2.0.3:
   version "2.0.3"
