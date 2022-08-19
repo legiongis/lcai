@@ -149,62 +149,87 @@ define([
 
             self.threeDHopFileCount = ko.observable(0);
 
+            let cloudUrl;
+            let config = {};
             if (self.report.get('tiles')) {
-                let config = {}
                 self.report.get('tiles').forEach(function (tile) {
-                    _.each(tile.data, function (val, key) {
-
-                        if (val == null) {
-                            return;
+                    
+                    Object.keys(tile.data).forEach(function (key) {
+                    
+                        if (key == "f122b840-1fd5-11ed-b155-87354179b92a") {
+                            cloudUrl = tile.data[key].url
                         }
+                    });
+                });
+            }
 
-                        // 3D model file
-                        if (Array.isArray(val)) {
-                            val.forEach(function (item) {
+            if (cloudUrl) {
+                console.log("display model: "+ cloudUrl)
+                config = {meshes:{}, modelInstances: {}}
+                var meshName = cloudUrl.substring(cloudUrl.lastIndexOf('/') + 1)
+                var mesh = {
+                    url: cloudUrl
+                };
+                // addProperty(config, `meshes.${fileName}`, mesh)
+                config.meshes[meshName] = mesh
 
-                                if (item.name){
-                                    var fileExtension = getExtension(item.name);
-                                }
+                var instance = {
+                    mesh: meshName
+                };
+                // addProperty(config, `modelInstances.${fileName}`, instance)
+                config.modelInstances[meshName] = instance
 
-                                if (item.status &&
-                                    item.status === 'uploaded' &&
-                                    (fileExtension == 'ply' || fileExtension == 'nxs')
-                                ) {
-                                    var mesh = {
-                                        url: item.url
-                                    };
-                                    var meshName = removeDotsFromString(item.name);
-                                    addProperty(config, `meshes.${meshName}`, mesh)
+            } else {
+                config = {}
+                if (self.report.get('tiles')) {
+                    self.report.get('tiles').forEach(function (tile) {
+                        _.each(tile.data, function (val, key) {
 
-                                    var instance = {
-                                        mesh: meshName
-                                    };
-                                    var instanceName = removeDotsFromString(item.name);
-                                    addProperty(config, `modelInstances.${instanceName}`, instance)
-                                }
-                            });
-                            return;
-                        }
+                            if (val == null) {
+                                return;
+                            }
 
-                        var addConfigurationMethod = configurationDictionary[key];
-                        if (addConfigurationMethod){
-                            addConfigurationMethod(config, val);
-                        }
+                            // 3D model file
+                            if (Array.isArray(val)) {
+                                val.forEach(function (item) {
 
+                                    if (item.name){
+                                        var fileExtension = getExtension(item.name);
+                                    }
+
+                                    if (item.status &&
+                                        item.status === 'uploaded' &&
+                                        (fileExtension == 'ply' || fileExtension == 'nxs')
+                                    ) {
+                                        var mesh = {
+                                            url: item.url
+                                        };
+                                        var meshName = removeDotsFromString(item.name);
+                                        addProperty(config, `meshes.${meshName}`, mesh)
+
+                                        var instance = {
+                                            mesh: meshName
+                                        };
+                                        var instanceName = removeDotsFromString(item.name);
+                                        addProperty(config, `modelInstances.${instanceName}`, instance)
+                                    }
+                                });
+                                return;
+                            }
+                            var addConfigurationMethod = configurationDictionary[key];
+                            if (addConfigurationMethod){
+                                addConfigurationMethod(config, val);
+                            }
+                        }, self);
                     }, self);
-                }, self);
-
-
-                cleanEmptyProperties(config);
-
-                console.log(config)
-
-                if (config.meshes) {
-                    var threeDHopFileCount = Object.keys(config.meshes).length;
-                    if (threeDHopFileCount > 0) {
-                        self.threeDHopFileCount(threeDHopFileCount);
-                        threeDHopSetup.setup3DHOP(config);
-                    }
+                }
+            }
+            cleanEmptyProperties(config);
+            if (config.meshes) {
+                var threeDHopFileCount = Object.keys(config.meshes).length;
+                if (threeDHopFileCount > 0) {
+                    self.threeDHopFileCount(threeDHopFileCount);
+                    threeDHopSetup.setup3DHOP(config);
                 }
             }
 
