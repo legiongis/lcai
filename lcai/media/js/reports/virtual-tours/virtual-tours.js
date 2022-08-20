@@ -14,50 +14,67 @@ function (_, ko, ReportViewModel, virtualToursSetup ,arches) {
             params.configKeys = ['nodes'];
             ReportViewModel.apply(this, [params]);
 
-            self.virtualTourZipFiles = ko.observableArray([]);
-
+            let cloudUrl;
             if (self.report.get('tiles')) {
-                var virtualTourZipFiles = [];
                 self.report.get('tiles').forEach(function (tile) {
-                    _.each(tile.data, function (val) {
-                        if (Array.isArray(val)) {
-                            val.forEach(function (item) {
-
-                                if (item.status &&
-                                    (item.name.split('.').pop() == 'zip')) {
-                                        // Hotfix for status being 'queued' while the file is actually uploaded
-                                        if (item.status == 'queued'){
-                                            let url = arches.urls.uploadedfiles + item.name;
-                                            console.log("setting url: " + url);
-                                            item.url = url;
-                                        }
-                                    virtualTourZipFiles.push({
-                                        src: item.url,
-                                        name: item.name
-                                    });
-                                }
-                            });
+                    
+                    Object.keys(tile.data).forEach(function (key) {
+                    
+                        if (key == "2bf7e032-200b-11ed-b155-87354179b92a") {
+                            cloudUrl = tile.data[key].url
                         }
+                    });
+                });
+            }
+
+            if (cloudUrl) {
+                virtualToursSetup.setupVirtualTours(cloudUrl)
+            } else {
+                self.virtualTourZipFiles = ko.observableArray([]);
+
+                if (self.report.get('tiles')) {
+                    var virtualTourZipFiles = [];
+                    self.report.get('tiles').forEach(function (tile) {
+                        _.each(tile.data, function (val) {
+                            if (Array.isArray(val)) {
+                                val.forEach(function (item) {
+
+                                    if (item.status &&
+                                        (item.name.split('.').pop() == 'zip')) {
+                                            // Hotfix for status being 'queued' while the file is actually uploaded
+                                            if (item.status == 'queued'){
+                                                let url = arches.urls.uploadedfiles + item.name;
+                                                console.log("setting url: " + url);
+                                                item.url = url;
+                                            }
+                                        virtualTourZipFiles.push({
+                                            src: item.url,
+                                            name: item.name
+                                        });
+                                    }
+                                });
+                            }
+                        }, self);
                     }, self);
-                }, self);
 
-                if (virtualTourZipFiles.length > 0) {
-                    self.virtualTourZipFiles(virtualTourZipFiles);
-                    let filepath = virtualTourZipFiles[0].src;
-                    let originalName = virtualTourZipFiles[0].name;
+                    if (virtualTourZipFiles.length > 0) {
+                        self.virtualTourZipFiles(virtualTourZipFiles);
+                        let filepath = virtualTourZipFiles[0].src;
+                        let originalName = virtualTourZipFiles[0].name;
 
-                    let filepathWithoutExtension = "";
-                    if (filepath != null) {
-                        filepathWithoutExtension = filepath.replace(/\.[^/.]+$/, "");
+                        let filepathWithoutExtension = "";
+                        if (filepath != null) {
+                            filepathWithoutExtension = filepath.replace(/\.[^/.]+$/, "");
+                        }
+
+                        let originalNameWithoutExtension = ""
+                        if (originalName != null) {
+                            originalNameWithoutExtension = originalName.replace(/\.[^/.]+$/, "");
+                        }
+
+                        let htmlPath = filepathWithoutExtension + '/' + originalNameWithoutExtension + '/' + originalNameWithoutExtension + '.html';
+                        virtualToursSetup.setupVirtualTours(htmlPath)
                     }
-
-                    let originalNameWithoutExtension = ""
-                    if (originalName != null) {
-                        originalNameWithoutExtension = originalName.replace(/\.[^/.]+$/, "");
-                    }
-
-                    let htmlPath = filepathWithoutExtension + '/' + originalNameWithoutExtension + '/' + originalNameWithoutExtension + '.html';
-                    virtualToursSetup.setupVirtualTours(htmlPath)
                 }
             }
 

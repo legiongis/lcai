@@ -1,8 +1,8 @@
 {
     "name": "Panotour Report Template",
     "templateid": "50000000-0000-0000-0000-000000000007",
-    "component": "reports/potree",
-    "componentname": "potree",
+    "component": "reports/virtual-tours/virtual-tours",
+    "componentname": "virtual-tours-report",
     "description": "A custom report.",
     "defaultconfig": {"nodes": []}
 }
