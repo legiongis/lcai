@@ -139,7 +139,6 @@ define([
             }
         })
     }
-    console.log("in the 3d hop report")
 
     return ko.components.register('three-d-hop-report', {
         viewModel: function (params) {
