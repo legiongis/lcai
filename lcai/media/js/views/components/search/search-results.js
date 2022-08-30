@@ -170,6 +170,10 @@ function($, _, BaseFilter, bootstrap, arches, select2, ko, koMapping, GraphModel
                     }, []);
 
                     this.searchResults.results.hits.hits.forEach(function(result){
+                        let disDesc = result._source.displaydescription
+                        if (disDesc && String(disDesc).startsWith("/files/")) {
+                            disDesc = `<div class="media-left"><img class="img-fluid" src="${disDesc}" height=60></div>`
+                        }
                         var graphdata = _.find(viewdata.graphs, function(graphdata){
                             return result._source.graph_id === graphdata.graphid;
                         });
@@ -180,7 +184,7 @@ function($, _, BaseFilter, bootstrap, arches, select2, ko, koMapping, GraphModel
                         this.results.push({
                             displayname: result._source.displayname,
                             resourceinstanceid: result._source.resourceinstanceid,
-                            displaydescription: result._source.displaydescription,
+                            displaydescription: disDesc,
                             "map_popup": result._source.map_popup,
                             "provisional_resource": result._source.provisional_resource,
                             geometries: ko.observableArray(result._source.geometries),
