@@ -94,7 +94,7 @@ function($, _, Backbone, bootstrap, arches, select2, ko, koMapping, viewdata) {
 		// Parse the display function results to handle thumbail image nodegroups - AML 2019				
 		parseDisplay: function(descvalue) { 
 			var descvaluehtml = descvalue;
-			//console.log(descvalue);
+			console.log(descvalue);
 			if (descvalue.startsWith("None")) {
 				var descvalue = descvalue.slice(6);
 			} 
