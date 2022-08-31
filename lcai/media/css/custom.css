@@ -778,6 +778,20 @@ a .search-type-link {
 	border: 1px solid white;
 }
 
+.search-toolbar {
+  display: flex;
+  width: 100%;
+  height: unset;
+  background: #726e64;
+  border-bottom: solid 1px #bbd1ea;
+  padding: 10px;
+}
+
+.search-tools-container {
+  background: unset;
+  border: unset;
+}
+
 .search-type-btn i {
     font-size: 1em;
 }
@@ -790,7 +804,8 @@ a .search-type-link {
     background: #fff !important;
 }
 .search-control-container {
-	background-color: #fcfbfb;
+	background-color: unset;
+  border-top: unset;
 	border-right: solid 1px #ecebe9;
 }
 .search-listing {
@@ -813,7 +828,12 @@ a .search-type-link {
 }
 .search-candidate-title, .search-candidate-link {
     color: #a4d65e;
+    font-weight: 600;
 }	
+
+.search-footer {
+  position: relative;
+}
 .map-widget-container {
     background: #a4d65e;
     border: 1px solid #726e64;
