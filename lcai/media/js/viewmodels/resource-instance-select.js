@@ -223,6 +223,9 @@ define([
                             if(!val.resourceName) {
                                 Object.defineProperty(val, 'resourceName', {value: ko.observable()});
                             }
+                            if(!val.resourceDescription) {
+                                Object.defineProperty(val, 'resourceDescription', {value: ko.observable()});
+                            }
                             if(!val.ontologyClass) {
                                 Object.defineProperty(val, 'ontologyClass', {value:ko.observable()});
                             }
@@ -234,6 +237,7 @@ define([
                                     names.push(resourceInstance["_source"].displayname);
                                     self.displayValue(names.join(', '));
                                     val.resourceName(resourceInstance["_source"].displayname)
+                                    val.resourceDescription(resourceInstance["_source"].displaydescription)
                                     val.iconClass(self.graphLookup[resourceInstance["_source"].graph_id]?.iconclass || 'fa fa-question')
                                     val.ontologyClass(resourceInstance["_source"].root_ontology_class);
                                 });
@@ -286,6 +290,7 @@ define([
                 "resourceXresourceId": ""
             };            
             Object.defineProperty(ret, 'resourceName', {value: ko.observable(esSource.displayname)});
+            Object.defineProperty(ret, 'resourceDescription', {value: ko.observable(esSource.displaydescription)});
             Object.defineProperty(ret, 'ontologyClass', {value: ko.observable(esSource.root_ontology_class)});
             Object.defineProperty(ret, 'iconClass', {value: ko.observable(iconClass)});
             if (!!params.configForm) {
