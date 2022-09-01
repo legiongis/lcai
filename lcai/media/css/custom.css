@@ -776,6 +776,9 @@ a .search-type-link {
     color: white;
 	background-color: black;
 	border: 1px solid white;
+  min-width: unset;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .search-toolbar {
@@ -830,6 +833,10 @@ a .search-type-link {
     color: #a4d65e;
     font-weight: 600;
 }	
+
+.search-attribute-widget {
+  width: 375px;
+}
 
 .search-footer {
   position: relative;
