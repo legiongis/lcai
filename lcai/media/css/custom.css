@@ -850,6 +850,12 @@ a .search-type-link {
     background: #000;
 }
 
+.search-results-panel {
+  border-right: unset;
+  border-left: solid 1px #dcdcdc;
+  background: url('media/img/background/topo1000_12.png')
+}
+
 
 /*-----------------------------------------------------------------------------
 
