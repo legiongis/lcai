@@ -322,8 +322,10 @@
 {% block report %}
 <dt data-bind="text: label"></dt>
 <!-- ko foreach: value -->
-<dd>z
-    <a data-bind="text: resourceName, attr: { href: $parent.resourceReportUrl+ko.unwrap(resourceId) }" target="_blank"></a>
+<dd>
+    <a data-bind="attr: { href: $parent.resourceReportUrl+ko.unwrap(resourceId) }" target="_blank">
+        <img data-bind="attr: {src: resourceDescription, alt: resourceName}"></img>
+    </a>
 </dd>
 <!-- /ko -->
 <!-- ko if: (!!value() && value().length === 0) || value() === null -->
