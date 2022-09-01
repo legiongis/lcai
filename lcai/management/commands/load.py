@@ -74,6 +74,12 @@ class Command(BaseCommand):
                     "Thumbnail Image",
                 ]
             },
+            "all-documents.csv": {
+                "file_fields": [
+                    "Document File",
+                    "Thumbnail"
+                ]
+            }
         }
 
         missing = []
