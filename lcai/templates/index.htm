@@ -16,6 +16,9 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="{% static 'img/favicon/favicon-16x16.png' %}">
 	<link rel="manifest" href="{% static 'img/favicon/site.webmanifest' %}">
     {% include 'partials/css.html' %}
+    {% if PLAUSIBLE_SITE_DOMAIN %}
+    <script defer data-domain="{{PLAUSIBLE_SITE_DOMAIN}}" src="https://plausible.io/js/plausible.js"></script>
+    {% endif %}
 </head>
 <body>
 <main>
