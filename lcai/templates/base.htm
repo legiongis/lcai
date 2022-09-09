@@ -56,6 +56,11 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
         <link href="{% static 'css/project.css' %}" rel="stylesheet">
     {% endblock css%}
 
+    {% if PLAUSIBLE_SITE_DOMAIN %}
+    <script defer data-domain="{{PLAUSIBLE_SITE_DOMAIN}}" src="https://plausible.io/js/plausible.js"></script>
+    {% endif %}
+
+
 </head>
 
 <body {% block body_attributes %}class="scroll-y-auto"{% endblock %}>
