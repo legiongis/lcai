@@ -75,6 +75,9 @@ INSTALLED_APPS += ('lcai', )
 
 ALLOWED_HOSTS = []
 
+LOGIN_URL = "/auth/"
+LOGIN_REQUIRED_SITEWIDE = False
+
 SYSTEM_SETTINGS_LOCAL_PATH = os.path.join(APP_ROOT, 'system_settings', 'System_Settings.json')
 WSGI_APPLICATION = 'lcai.wsgi.application'
 
@@ -247,3 +250,8 @@ try:
     from .settings_local import *
 except ImportError as e:
     pass
+
+print(LOGIN_REQUIRED_SITEWIDE)
+if LOGIN_REQUIRED_SITEWIDE:
+    print("adding middleware")
+    MIDDLEWARE.append('lcai.middleware.LoginRequiredMiddleware')
