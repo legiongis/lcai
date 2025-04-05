@@ -31,7 +31,6 @@ class LoginRequiredMiddleware:
         self.get_response = get_response
 
     def __call__(self, request):
-        print("IN MIDDLEWARE:", request.path)
         # No need to process URLs if user already logged in
         if request.user.username != "anonymous":
             return self.get_response(request)

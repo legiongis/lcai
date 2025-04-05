@@ -251,7 +251,5 @@ try:
 except ImportError as e:
     pass
 
-print(LOGIN_REQUIRED_SITEWIDE)
 if LOGIN_REQUIRED_SITEWIDE:
-    print("adding middleware")
     MIDDLEWARE.append('lcai.middleware.LoginRequiredMiddleware')
