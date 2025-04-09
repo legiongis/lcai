@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/7f67dcaa-2df6-4d5f-8a16-1a643caa58ed">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b9a4691e-f433-11e9-b4c9-94659cf754d0">
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+        <skos:prefLabel xml:lang="en-us">{"id": "b9a52c70-f433-11e9-a446-94659cf754d0", "value": "Fremont"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b999bac0-f433-11e9-9587-94659cf754d0">
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+        <skos:prefLabel xml:lang="en-us">{"id": "b99b1a4f-f433-11e9-bf47-94659cf754d0", "value": "Petroglyph"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b984fa40-f433-11e9-8e36-94659cf754d0">
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+        <skos:prefLabel xml:lang="en-us">{"id": "b985e49e-f433-11e9-991c-94659cf754d0", "value": "Bisected Circle (Atlatl)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b9a1aa00-f433-11e9-94b5-94659cf754d0">
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+        <skos:prefLabel xml:lang="en-us">{"id": "b9a2bb70-f433-11e9-9b80-94659cf754d0", "value": "Curvilinear"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b991a470-f433-11e9-bcfe-94659cf754d0">
+        <skos:prefLabel xml:lang="en-us">{"id": "b992b5e1-f433-11e9-91a8-94659cf754d0", "value": "Circle"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b97f06d1-f433-11e9-8016-94659cf754d0">
+        <skos:prefLabel xml:lang="en-us">{"id": "b9801840-f433-11e9-9969-94659cf754d0", "value": "Bighorn Sheep"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b9880780-f433-11e9-b729-94659cf754d0">
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+        <skos:prefLabel xml:lang="en-us">{"id": "b988f1de-f433-11e9-9ab1-94659cf754d0", "value": "Concentric Circle"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b9821411-f433-11e9-92eb-94659cf754d0">
+        <skos:prefLabel xml:lang="en-us">{"id": "b982fe6e-f433-11e9-87e4-94659cf754d0", "value": "Canid"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b9961140-f433-11e9-badb-94659cf754d0">
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+        <skos:prefLabel xml:lang="en-us">{"id": "b99770cf-f433-11e9-8fe5-94659cf754d0", "value": "Zigzag"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b9948a9e-f433-11e9-88f3-94659cf754d0">
+        <skos:prefLabel xml:lang="en-us">{"id": "b995c321-f433-11e9-8537-94659cf754d0", "value": "Parallel Lines"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b983739e-f433-11e9-b034-94659cf754d0">
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+        <skos:prefLabel xml:lang="en-us">{"id": "b984ac21-f433-11e9-af10-94659cf754d0", "value": "Quadruped"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b98680de-f433-11e9-b320-94659cf754d0">
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+        <skos:prefLabel xml:lang="en-us">{"id": "b987b961-f433-11e9-8ad5-94659cf754d0", "value": "Geometric"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b99d161e-f433-11e9-99e5-94659cf754d0">
+        <skos:prefLabel xml:lang="en-us">{"id": "b99e2791-f433-11e9-9aa7-94659cf754d0", "value": "Spiral"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b9808d70-f433-11e9-8b89-94659cf754d0">
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+        <skos:prefLabel xml:lang="en-us">{"id": "b981c5f0-f433-11e9-ab57-94659cf754d0", "value": "Deer/Elk"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b9932b11-f433-11e9-ab45-94659cf754d0">
+        <skos:prefLabel xml:lang="en-us">{"id": "b9943c80-f433-11e9-9bd7-94659cf754d0", "value": "Line"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b9894000-f433-11e9-988c-94659cf754d0">
+        <skos:prefLabel xml:lang="en-us">{"id": "b98a5170-f433-11e9-9411-94659cf754d0", "value": "Serpentine Line"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b997e600-f433-11e9-8dc8-94659cf754d0">
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+        <skos:prefLabel xml:lang="en-us">{"id": "b999458f-f433-11e9-9cbb-94659cf754d0", "value": "Random Pecking"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b98f0c5e-f433-11e9-a522-94659cf754d0">
+        <skos:prefLabel xml:lang="en-us">{"id": "b98ff6c0-f433-11e9-8244-94659cf754d0", "value": "Dot Row/Line"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b99b6870-f433-11e9-8eb4-94659cf754d0">
+        <skos:prefLabel xml:lang="en-us">{"id": "b99ca0f0-f433-11e9-bcb4-94659cf754d0", "value": "Pictograph"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b98a9f91-f433-11e9-8da3-94659cf754d0">
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+        <skos:prefLabel xml:lang="en-us">{"id": "b98bb100-f433-11e9-abbe-94659cf754d0", "value": "Meandering Line"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b99e75b0-f433-11e9-af3e-94659cf754d0">
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+        <skos:prefLabel xml:lang="en-us">{"id": "b99f871e-f433-11e9-b368-94659cf754d0", "value": "Rectangle"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b97c95d1-f433-11e9-82d9-94659cf754d0">
+        <skos:prefLabel xml:lang="en-us">{"id": "b97e91a1-f433-11e9-9fb2-94659cf754d0", "value": "Zoomorph"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b9a3098f-f433-11e9-87cc-94659cf754d0">
+        <skos:prefLabel xml:lang="en-us">{"id": "b9a41b00-f433-11e9-be46-94659cf754d0", "value": "Rectilinear"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b98d5eb0-f433-11e9-8823-94659cf754d0">
+        <skos:prefLabel xml:lang="en-us">{"id": "b98ebe40-f433-11e9-8d63-94659cf754d0", "value": "Dot Grid"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b99ffc4f-f433-11e9-a56f-94659cf754d0">
+        <skos:prefLabel xml:lang="en-us">{"id": "b9a134d1-f433-11e9-a7af-94659cf754d0", "value": "Grid"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b98bff1e-f433-11e9-aeb5-94659cf754d0">
+        <skos:prefLabel xml:lang="en-us">{"id": "b98d1091-f433-11e9-9e49-94659cf754d0", "value": "Dots"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b99044e1-f433-11e9-b924-94659cf754d0">
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+        <skos:prefLabel xml:lang="en-us">{"id": "b991564f-f433-11e9-b730-94659cf754d0", "value": "Rake"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en-us">{"id": "1e26102a-7436-4857-b480-4b6e66eae158", "value": "Motif"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/7f67dcaa-2df6-4d5f-8a16-1a643caa58ed"/>
+        <dcterms:title xml:lang="en-us">{"id": "491d48cc-7c56-464e-8d0a-b2fd80222afa", "value": "LCAI"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/00ce3783-7104-499f-b4ab-c2d6a6676371"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/69811f11-f433-11e9-8412-94659cf754d0">
+    <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+    <skos:prefLabel xml:lang="en-us">{"id": "6982578f-f433-11e9-b347-94659cf754d0", "value": "Basin and Range Tradition"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/69733c61-f433-11e9-8a56-94659cf754d0">
+    <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+    <skos:prefLabel xml:lang="en-us">{"id": "6974ea0f-f433-11e9-bf48-94659cf754d0", "value": "Great Basin"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/00ce3783-7104-499f-b4ab-c2d6a6676371">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/697e11cf-f433-11e9-a967-94659cf754d0">
+        <skos:prefLabel xml:lang="en-us">{"id": "697f2340-f433-11e9-abbf-94659cf754d0", "value": "19th Century"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/5e88bdc0-f433-11e9-ae89-94659cf754d0">
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/6979a500-f433-11e9-8e17-94659cf754d0">
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+        <skos:prefLabel xml:lang="en-us">{"id": "697add80-f433-11e9-9d7f-94659cf754d0", "value": "Middle Archaic"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en-us">{"id": "50b478d8-fc77-454d-8a50-d31aec4fddbf", "value": "Keyword"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/697f986e-f433-11e9-85b7-94659cf754d0">
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+        <skos:prefLabel xml:lang="en-us">{"id": "6980a9e1-f433-11e9-90c5-94659cf754d0", "value": "20th Century"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/697b2ba1-f433-11e9-a781-94659cf754d0">
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+        <skos:prefLabel xml:lang="en-us">{"id": "697c3d0f-f433-11e9-9b82-94659cf754d0", "value": "Late Archaic"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/69811f11-f433-11e9-8412-94659cf754d0"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/69781e61-f433-11e9-830e-94659cf754d0">
+        <skos:prefLabel xml:lang="en-us">{"id": "697956de-f433-11e9-8501-94659cf754d0", "value": "Silver Mining"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/697649a1-f433-11e9-9992-94659cf754d0">
+        <skos:prefLabel xml:lang="en-us">{"id": "6977821e-f433-11e9-8fad-94659cf754d0", "value": "Pahranagat Mining District"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/697cb240-f433-11e9-af17-94659cf754d0">
+        <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+        <skos:prefLabel xml:lang="en-us">{"id": "697dc3b0-f433-11e9-a04b-94659cf754d0", "value": "Early Archaic"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/a6e4028a-f845-47dd-8a97-0171ef90da75"/>
+    <skos:narrower rdf:resource="http://localhost:8000/69733c61-f433-11e9-8a56-94659cf754d0"/>
+  </skos:Concept>
+</rdf:RDF>
