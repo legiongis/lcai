@@ -27,7 +27,14 @@
                     "cardid": "2fe7de24-d139-11e8-8e63-0242ac1a0004",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "2fe7de24-d139-11e8-8e63-0242ac1a0004",
+                            "constraintid": "09f38088-c9e5-4179-bdf5-ec030aa5cc6a",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "Describes the title and description of a 3D HOP Resource.",
                     "graph_id": "36bcaff4-b82f-11e8-8598-0242ac120004",
@@ -646,7 +653,7 @@
                     "id": "4060798c-d139-11e8-a3bd-0242ac1a0004",
                     "label": "Description",
                     "node_id": "2fe7e608-d139-11e8-8e63-0242ac1a0004",
-                    "sortorder": 2,
+                    "sortorder": 4,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
@@ -1142,7 +1149,7 @@
                     "id": "92f44688-fbf6-11e9-a639-020e63c574f4",
                     "label": "Keywords",
                     "node_id": "0d3fd5c8-fbf6-11e9-a639-020e63c574f4",
-                    "sortorder": 3,
+                    "sortorder": 5,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000012"
                 },
@@ -1157,7 +1164,7 @@
                     "id": "92f4468c-fbf6-11e9-a639-020e63c574f4",
                     "label": "Motifs",
                     "node_id": "6adeb4a6-fbf6-11e9-a639-020e63c574f4",
-                    "sortorder": 1,
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000012"
                 },
@@ -1285,6 +1292,23 @@
                     "card_id": "2fe7de24-d139-11e8-8e63-0242ac1a0004",
                     "config": {
                         "defaultValue": "",
+                        "label": "Site ID",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "b331492c-18a5-11f0-bec1-10b1df766ff9",
+                    "label": "Site ID",
+                    "node_id": "8c34182c-18a5-11f0-bec1-10b1df766ff9",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "2fe7de24-d139-11e8-8e63-0242ac1a0004",
+                    "config": {
+                        "defaultValue": "",
                         "label": "Panel Number",
                         "maxLength": null,
                         "placeholder": "Enter text",
@@ -1294,7 +1318,7 @@
                     "id": "e6da29e6-fa18-11e9-a639-020e63c574f4",
                     "label": "Panel Number",
                     "node_id": "adcf37cf-b476-11e9-8662-94659cf754d0",
-                    "sortorder": 1,
+                    "sortorder": 3,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -1721,6 +1745,15 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "2fe7d85c-d139-11e8-8e63-0242ac1a0004",
+                    "edgeid": "8c3423f8-18a5-11f0-bec1-10b1df766ff9",
+                    "graph_id": "36bcaff4-b82f-11e8-8598-0242ac120004",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1i_identifies",
+                    "rangenode_id": "8c34182c-18a5-11f0-bec1-10b1df766ff9"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "36bca82e-b82f-11e8-8598-0242ac120004",
                     "edgeid": "8f26195e-c86d-11e9-abb3-94659cf754d0",
                     "graph_id": "36bcaff4-b82f-11e8-8598-0242ac120004",
@@ -2023,7 +2056,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "36bcaff4-b82f-11e8-8598-0242ac120004",
-                    "id": "85f92386-2943-11ed-ad39-e746f226a47a"
+                    "id": "6cab14a6-18a5-11f0-a0bb-10b1df766ff9"
                 }
             ],
             "graphid": "36bcaff4-b82f-11e8-8598-0242ac120004",
@@ -2925,6 +2958,25 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "site_id",
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "36bcaff4-b82f-11e8-8598-0242ac120004",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Site ID",
+                    "nodegroup_id": "2fe7d85c-d139-11e8-8e63-0242ac1a0004",
+                    "nodeid": "8c34182c-18a5-11f0-bec1-10b1df766ff9",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E27_Site",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1i_identifies",
+                    "sortorder": 0
+                },
+                {
                     "alias": "coordinates",
                     "config": {
                         "addToMap": true,
@@ -3575,9 +3627,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.12 (Ubuntu 12.12-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",
-        "git hash": "eae7c6228 2022-06-16 17:04:09 -0700",
+        "db": "PostgreSQL 15.12 (Ubuntu 15.12-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
+        "git hash": "eae7c62286 2022-06-16 17:04:09 -0700",
         "os": "Linux",
-        "os version": "5.15.0-46-generic"
+        "os version": "6.12.10-76061203-generic"
     }
 }

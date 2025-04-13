@@ -65,7 +65,14 @@
                     "cardid": "ae3c961c-d138-11e8-8f5d-0242ac1a0004",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "ae3c961c-d138-11e8-8f5d-0242ac1a0004",
+                            "constraintid": "3560d1ee-9d34-4ac5-aaac-c1c8f3bb7283",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "Describes the title and description of a Potree Pointcloud Resource.",
                     "graph_id": "9b591814-c0f2-11e8-9c8c-0242ac120004",
@@ -132,6 +139,38 @@
                 }
             ],
             "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "ae3c961c-d138-11e8-8f5d-0242ac1a0004",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Site ID",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "0523a25c-18a6-11f0-bec1-10b1df766ff9",
+                    "label": "Site ID",
+                    "node_id": "f6595abe-18a5-11f0-bec1-10b1df766ff9",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "ae3c961c-d138-11e8-8f5d-0242ac1a0004",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Keyword",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "05253978-18a6-11f0-bec1-10b1df766ff9",
+                    "label": "Keyword",
+                    "node_id": "fccbec51-f429-11e9-89bc-94659cf754d0",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
                 {
                     "card_id": "bedc2c48-1e21-11ed-9712-2f01f317605d",
                     "config": {
@@ -342,7 +381,7 @@
                     "id": "c7394160-d138-11e8-bab6-0242ac1a0004",
                     "label": "Description",
                     "node_id": "ae3c9950-d138-11e8-8f5d-0242ac1a0004",
-                    "sortorder": 1,
+                    "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 }
@@ -495,6 +534,15 @@
                 {
                     "description": null,
                     "domainnode_id": "ae3c907c-d138-11e8-8f5d-0242ac1a0004",
+                    "edgeid": "f6596504-18a5-11f0-bec1-10b1df766ff9",
+                    "graph_id": "9b591814-c0f2-11e8-9c8c-0242ac120004",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1i_identifies",
+                    "rangenode_id": "f6595abe-18a5-11f0-bec1-10b1df766ff9"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "ae3c907c-d138-11e8-8f5d-0242ac1a0004",
                     "edgeid": "fccc1361-f429-11e9-868c-94659cf754d0",
                     "graph_id": "9b591814-c0f2-11e8-9c8c-0242ac120004",
                     "name": null,
@@ -535,7 +583,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "9b591814-c0f2-11e8-9c8c-0242ac120004",
-                    "id": "7b97e078-28a7-11ed-ad39-e746f226a47a"
+                    "id": "6b3dfa48-18a5-11f0-a0bb-10b1df766ff9"
                 }
             ],
             "graphid": "9b591814-c0f2-11e8-9c8c-0242ac120004",
@@ -942,6 +990,25 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "site_id",
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "9b591814-c0f2-11e8-9c8c-0242ac120004",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Site ID",
+                    "nodegroup_id": "ae3c907c-d138-11e8-8f5d-0242ac1a0004",
+                    "nodeid": "f6595abe-18a5-11f0-bec1-10b1df766ff9",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E27_Site",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1i_identifies",
+                    "sortorder": 0
+                },
+                {
                     "alias": "keyword",
                     "config": {
                         "rdmCollection": "2c6ff869-4b21-4baf-85cf-844aa151ee77"
@@ -991,9 +1058,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.12 (Ubuntu 12.12-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",
-        "git hash": "eae7c6228 2022-06-16 17:04:09 -0700",
+        "db": "PostgreSQL 15.12 (Ubuntu 15.12-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
+        "git hash": "eae7c62286 2022-06-16 17:04:09 -0700",
         "os": "Linux",
-        "os version": "5.15.0-46-generic"
+        "os version": "6.12.10-76061203-generic"
     }
 }
