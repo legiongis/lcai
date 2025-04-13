@@ -21,8 +21,8 @@ class Command(BaseCommand):
         try:
             streets = MapLayer.objects.get(name="streets")
             satellite = MapLayer.objects.get(name="satellite")
-            outdoor = MapLayer.objects.get(name="LCAI-Outdoor")
-            lcai = MapLayer.objects.get(name="Outdoors")
+            outdoor = MapLayer.objects.get(name="Outdoors")
+            lcai = MapLayer.objects.get(name="LCAI-Outdoor")
         except MapLayer.DoesNotExist:
             print("can't find expected maplayer")
             return
