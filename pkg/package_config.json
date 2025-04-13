@@ -1,12 +1,12 @@
 {
     "permitted_resource_relationships":[],
     "business_data_load_order": [
-        "all-virtual-tours.csv",
-        "all-images.csv",
-        "all-3d-panels_v6.csv",
+        "Round10-virtual-tours.csv",
+        "Round10-images.csv",
+        "Round10-3d-panels.csv",
         "Round13_3dModels_SG.csv",
         "Round13_3dModels_WRN.csv",
-        "all-pointclouds.json",
-        "all-documents.csv"
+        "Round10-pointclouds.json",
+        "Round10-documents.csv"
     ]
 }
