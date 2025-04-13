@@ -12,3 +12,4 @@ python manage.py packages -o import_graphs -s lcai/system_settings/Arches_System
 python manage.py packages -o import_business_data -s lcai/system_settings/System_Settings.json -ow overwrite
 
 python manage.py packages -o load_package -s pkg
+python manage.py fixbasemaps
