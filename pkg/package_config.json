@@ -7,6 +7,7 @@
         "Round13_3dModels_SG.csv",
         "Round13_3dModels_WRN.csv",
         "Round10-pointclouds.json",
-        "Round10-documents.csv"
+        "Round10-documents.csv",
+        "Round13_pointclouds1.csv"
     ]
 }
