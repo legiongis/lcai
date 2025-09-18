@@ -42,7 +42,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Enter the resource's title and description",
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Summary",
                     "nodegroup_id": "2fe7d85c-d139-11e8-8e63-0242ac1a0004",
                     "sortorder": 0,
@@ -53,7 +53,14 @@
                     "cardid": "3aaa9461-6b89-11e9-a79f-94659cf754d0",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "3aaa9461-6b89-11e9-a79f-94659cf754d0",
+                            "constraintid": "46d95e5a-a811-4acb-a8e1-c253e8d43248",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "36bcaff4-b82f-11e8-8598-0242ac120004",
@@ -61,10 +68,10 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Related Drawings",
                     "nodegroup_id": "3aa95be1-6b89-11e9-bfbf-94659cf754d0",
-                    "sortorder": null,
+                    "sortorder": 5,
                     "visible": true
                 },
                 {
@@ -72,7 +79,14 @@
                     "cardid": "4b9b38a0-d12f-11e8-85df-0242ac1a0004",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "4b9b38a0-d12f-11e8-85df-0242ac1a0004",
+                            "constraintid": "ddd82dc0-fbaa-4541-aafe-806d4c50612c",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "36bcaff4-b82f-11e8-8598-0242ac120004",
@@ -80,11 +94,11 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "For e.g. the presentation of this resource on overview pages. Thumbnail Images must be exactly 400 x 400 pixels.",
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Thumbnail Image",
                     "nodegroup_id": "4b9b3314-d12f-11e8-85df-0242ac1a0004",
                     "sortorder": 1,
-                    "visible": false
+                    "visible": true
                 },
                 {
                     "active": true,
@@ -205,7 +219,14 @@
                     "cardid": "8f23cf70-c86d-11e9-b956-94659cf754d0",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "8f23cf70-c86d-11e9-b956-94659cf754d0",
+                            "constraintid": "335a7dfa-2d6b-42db-8541-73726db89e20",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "36bcaff4-b82f-11e8-8598-0242ac120004",
@@ -213,10 +234,10 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Coordinates",
                     "nodegroup_id": "8f2248d1-c86d-11e9-af7e-94659cf754d0",
-                    "sortorder": null,
+                    "sortorder": 3,
                     "visible": true
                 },
                 {
@@ -259,6 +280,38 @@
                 },
                 {
                     "active": true,
+                    "cardid": "9f840f26-9495-11f0-bc3b-02553ffbe539",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "9f840f26-9495-11f0-bc3b-02553ffbe539",
+                            "constraintid": "721c169c-d0ca-4e96-aa69-a0dc776f3141",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        },
+                        {
+                            "card_id": "9f840f26-9495-11f0-bc3b-02553ffbe539",
+                            "constraintid": "39e51f2f-9e89-469c-bb21-4c7187906692",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "36bcaff4-b82f-11e8-8598-0242ac120004",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Documents",
+                    "nodegroup_id": "9f840f24-9495-11f0-bc3b-02553ffbe539",
+                    "sortorder": 7,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "a7fb9494-bfed-11e8-a478-0242ac160004",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -270,7 +323,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Select a 3D model file and enter its metadata.",
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "3D Model File",
                     "nodegroup_id": "a7fb8cf6-bfed-11e8-a478-0242ac160004",
                     "sortorder": 2,
@@ -281,7 +334,14 @@
                     "cardid": "c26a2a2a-226c-11e9-ab9d-0242ac170002",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "c26a2a2a-226c-11e9-ab9d-0242ac170002",
+                            "constraintid": "0a7a2d36-51ca-418e-90a7-fece7e3f00df",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "36bcaff4-b82f-11e8-8598-0242ac120004",
@@ -292,7 +352,7 @@
                     "is_editable": true,
                     "name": "3D HOP Configuration",
                     "nodegroup_id": "c268941c-226c-11e9-ab9d-0242ac170002",
-                    "sortorder": null,
+                    "sortorder": 4,
                     "visible": false
                 },
                 {
@@ -319,7 +379,14 @@
                     "cardid": "fb6ef25e-6b87-11e9-a481-94659cf754d0",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "fb6ef25e-6b87-11e9-a481-94659cf754d0",
+                            "constraintid": "031d2617-23b2-4f50-98ed-a85ef6014175",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "36bcaff4-b82f-11e8-8598-0242ac120004",
@@ -327,10 +394,10 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Photographs",
                     "nodegroup_id": "fb6e561e-6b87-11e9-b93e-94659cf754d0",
-                    "sortorder": null,
+                    "sortorder": 6,
                     "visible": true
                 }
             ],
@@ -662,7 +729,7 @@
                     "config": {
                         "acceptedFiles": ".png,.jpeg,.jpg,.svg",
                         "label": "Thumbnail Image",
-                        "maxFilesize": "0.2",
+                        "maxFilesize": "2",
                         "rerender": true
                     },
                     "id": "4b9b3e4a-d12f-11e8-85df-0242ac1a0004",
@@ -1178,7 +1245,7 @@
                     "id": "9a79c971-b48a-11e9-a841-94659cf754d0",
                     "label": "Drawings",
                     "node_id": "3aa95be1-6b89-11e9-bfbf-94659cf754d0",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
@@ -1306,6 +1373,20 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
+                    "card_id": "9f840f26-9495-11f0-bc3b-02553ffbe539",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "label": "Documents",
+                        "placeholder": ""
+                    },
+                    "id": "b6a7f3a2-9495-11f0-bc3b-02553ffbe539",
+                    "label": "Documents",
+                    "node_id": "9f840f24-9495-11f0-bc3b-02553ffbe539",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
                     "card_id": "2fe7de24-d139-11e8-8e63-0242ac1a0004",
                     "config": {
                         "defaultValue": "",
@@ -1325,7 +1406,7 @@
                 {
                     "card_id": "8f23cf70-c86d-11e9-b956-94659cf754d0",
                     "config": {
-                        "basemap": "streets",
+                        "basemap": "LCAI-Outdoor",
                         "bearing": 0,
                         "centerX": -114.52353829,
                         "centerY": 37.8202940123,
@@ -1808,6 +1889,15 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "36bca82e-b82f-11e8-8598-0242ac120004",
+                    "edgeid": "9f840f27-9495-11f0-bc3b-02553ffbe539",
+                    "graph_id": "36bcaff4-b82f-11e8-8598-0242ac120004",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in",
+                    "rangenode_id": "9f840f24-9495-11f0-bc3b-02553ffbe539"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "3143c496-226e-11e9-ab9d-0242ac170002",
                     "edgeid": "a4030b9a-226e-11e9-b29f-0242ac170002",
                     "graph_id": "36bcaff4-b82f-11e8-8598-0242ac120004",
@@ -2056,12 +2146,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "36bcaff4-b82f-11e8-8598-0242ac120004",
-                    "id": "6cab14a6-18a5-11f0-a0bb-10b1df766ff9"
+                    "id": "3e03157e-9491-11f0-bc3b-02553ffbe539"
                 }
             ],
             "graphid": "36bcaff4-b82f-11e8-8598-0242ac120004",
             "iconclass": "fa fa-codepen",
-            "is_editable": true,
+            "is_editable": false,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -2144,6 +2234,12 @@
                     "legacygroupid": null,
                     "nodegroupid": "99020c2c-26ed-11e9-8639-0242ac170002",
                     "parentnodegroup_id": "57245474-226d-11e9-b29f-0242ac170002"
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "9f840f24-9495-11f0-bc3b-02553ffbe539",
+                    "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "n",
@@ -3116,6 +3212,34 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "documents",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "601c830e-d780-11e8-918f-0242ac120004",
+                                "name": "Document"
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "36bcaff4-b82f-11e8-8598-0242ac120004",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Documents",
+                    "nodegroup_id": "9f840f24-9495-11f0-bc3b-02553ffbe539",
+                    "nodeid": "9f840f24-9495-11f0-bc3b-02553ffbe539",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E31_Document",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in",
+                    "sortorder": 0
+                },
+                {
                     "alias": "start_pan_y",
                     "config": null,
                     "datatype": "number",
@@ -3627,9 +3751,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 15.12 (Ubuntu 15.12-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
-        "git hash": "eae7c62286 2022-06-16 17:04:09 -0700",
+        "db": "PostgreSQL 15.14 (Ubuntu 15.14-1.pgdg24.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, 64-bit",
+        "git hash": "eae7c6228 2022-06-16 17:04:09 -0700",
         "os": "Linux",
-        "os version": "6.12.10-76061203-generic"
+        "os version": "6.14.0-1012-aws"
     }
 }
