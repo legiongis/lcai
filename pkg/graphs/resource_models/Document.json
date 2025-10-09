@@ -16,7 +16,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Publication Event",
                     "nodegroup_id": "601c8714-d780-11e8-918f-0242ac120004",
                     "sortorder": 3,
@@ -99,7 +99,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Enter the CAD resource's title, description and creation date.",
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Summary",
                     "nodegroup_id": "601cdea8-d780-11e8-918f-0242ac120004",
                     "sortorder": 0,
@@ -118,7 +118,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Enter information for identifiers of the resource from other external sources.",
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "External Identifier",
                     "nodegroup_id": "601cf078-d780-11e8-918f-0242ac120004",
                     "sortorder": 5,
@@ -129,7 +129,14 @@
                     "cardid": "cbf63f78-eb46-11e8-af25-0242ac160004",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "cbf63f78-eb46-11e8-af25-0242ac160004",
+                            "constraintid": "9a2e1f51-340f-4e27-b83a-d762cc840718",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "Stores a file and a thumbnail representing that file",
                     "graph_id": "601c830e-d780-11e8-918f-0242ac120004",
@@ -137,8 +144,8 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Select one or multiple images and a thumbnail representing that image (collection)",
-                    "is_editable": true,
-                    "name": "Image(s) & Thumbnail",
+                    "is_editable": false,
+                    "name": "Documents and Reports",
                     "nodegroup_id": "cbf638f2-eb46-11e8-af25-0242ac160004",
                     "sortorder": 1,
                     "visible": true
@@ -268,12 +275,12 @@
                     "card_id": "cbf63f78-eb46-11e8-af25-0242ac160004",
                     "config": {
                         "acceptedFiles": "",
-                        "label": "CAD image(s)",
+                        "label": "Documents and Reports",
                         "maxFilesize": "200",
                         "rerender": true
                     },
                     "id": "cbf6491e-eb46-11e8-af25-0242ac160004",
-                    "label": "CAD image(s)",
+                    "label": "Documents and Reports",
                     "node_id": "cbf64694-eb46-11e8-af25-0242ac160004",
                     "sortorder": 0,
                     "visible": true,
@@ -297,7 +304,7 @@
                 {
                     "card_id": "cbf63f78-eb46-11e8-af25-0242ac160004",
                     "config": {
-                        "acceptedFiles": ".png,.jpeg,.jpg,.svg",
+                        "acceptedFiles": "",
                         "label": "Thumbnail (400 x 400 pixels)",
                         "maxFilesize": "0.2",
                         "rerender": true
@@ -335,7 +342,7 @@
             },
             "deploymentdate": null,
             "deploymentfile": null,
-            "description": "Model for storing CAD sections and plans",
+            "description": "Model for storing site reports and documents",
             "edges": [
                 {
                     "description": null,
@@ -587,12 +594,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "601c830e-d780-11e8-918f-0242ac120004",
-                    "id": "6c2c25a6-18a5-11f0-a0bb-10b1df766ff9"
+                    "id": "0ea5d8e4-949c-11f0-bc3b-02553ffbe539"
                 }
             ],
             "graphid": "601c830e-d780-11e8-918f-0242ac120004",
-            "iconclass": "fa fa-trello",
-            "is_editable": true,
+            "iconclass": "fa fa-file-text-o",
+            "is_editable": false,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -659,7 +666,7 @@
                     "nodeid": "601c8714-d780-11e8-918f-0242ac120004",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P128i_is_carried_by",
-                    "sortorder": 2
+                    "sortorder": 0
                 },
                 {
                     "alias": "copyright_description",
@@ -678,7 +685,7 @@
                     "nodeid": "601c9aa6-d780-11e8-918f-0242ac120004",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E30_Right",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to",
-                    "sortorder": 5
+                    "sortorder": 0
                 },
                 {
                     "alias": "keyword",
@@ -699,7 +706,7 @@
                     "nodeid": "601cad2a-d780-11e8-918f-0242ac120004",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 4
+                    "sortorder": 0
                 },
                 {
                     "alias": "place",
@@ -718,7 +725,7 @@
                     "nodeid": "601cb84c-d780-11e8-918f-0242ac120004",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
-                    "sortorder": 6
+                    "sortorder": 0
                 },
                 {
                     "alias": "summary",
@@ -756,7 +763,7 @@
                     "nodeid": "601cf078-d780-11e8-918f-0242ac120004",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 3
+                    "sortorder": 0
                 },
                 {
                     "alias": "external_identifier_type",
@@ -1116,7 +1123,7 @@
                     "nodeid": "cbf638f2-eb46-11e8-af25-0242ac160004",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P62i_is_depicted_by",
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "alias": "thumbnail",
@@ -1166,7 +1173,9 @@
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "relatable_resource_model_ids": [],
+            "relatable_resource_model_ids": [
+                "36bcaff4-b82f-11e8-8598-0242ac120004"
+            ],
             "resource_2_resource_constraints": [],
             "root": {
                 "alias": "document",
@@ -1187,15 +1196,15 @@
                 "sortorder": 0
             },
             "slug": null,
-            "subtitle": "Model for storing site plans and elevation drawings",
+            "subtitle": "Associated Reports and documents ",
             "template_id": "50000000-0000-0000-0000-000000000003",
             "version": ""
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 15.12 (Ubuntu 15.12-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
-        "git hash": "eae7c62286 2022-06-16 17:04:09 -0700",
+        "db": "PostgreSQL 15.14 (Ubuntu 15.14-1.pgdg24.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, 64-bit",
+        "git hash": "eae7c6228 2022-06-16 17:04:09 -0700",
         "os": "Linux",
-        "os version": "6.12.10-76061203-generic"
+        "os version": "6.14.0-1012-aws"
     }
 }
