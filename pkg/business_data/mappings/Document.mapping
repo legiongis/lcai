@@ -60,14 +60,6 @@
             "export": true
         },
         {
-            "arches_nodeid": "601d09e6-d780-11e8-918f-0242ac120004",
-            "arches_node_name": "External Identifier Type",
-            "file_field_name": "External Identifier Type",
-            "data_type": "concept",
-            "concept_export_value": "label",
-            "export": true
-        },
-        {
             "arches_nodeid": "601d46d6-d780-11e8-918f-0242ac120004",
             "arches_node_name": "External Identifier Type",
             "file_field_name": "External Identifier Type",
@@ -76,14 +68,22 @@
             "export": true
         },
         {
-            "arches_nodeid": "601d13d2-d780-11e8-918f-0242ac120004",
+            "arches_nodeid": "601d09e6-d780-11e8-918f-0242ac120004",
+            "arches_node_name": "External Identifier Type",
+            "file_field_name": "External Identifier Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "601cf078-d780-11e8-918f-0242ac120004",
             "arches_node_name": "External XRef",
             "file_field_name": "External XRef",
             "data_type": "string",
             "export": true
         },
         {
-            "arches_nodeid": "601cf078-d780-11e8-918f-0242ac120004",
+            "arches_nodeid": "601d13d2-d780-11e8-918f-0242ac120004",
             "arches_node_name": "External XRef",
             "file_field_name": "External XRef",
             "data_type": "string",

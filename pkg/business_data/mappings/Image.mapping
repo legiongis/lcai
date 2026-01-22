@@ -32,14 +32,14 @@
             "export": true
         },
         {
-            "arches_nodeid": "d571d526-d6dd-11e8-a86c-0242ac150004",
+            "arches_nodeid": "53d4c310-d6d4-11e8-9eb1-0242ac150004",
             "arches_node_name": "Description",
             "file_field_name": "Description",
             "data_type": "string",
             "export": true
         },
         {
-            "arches_nodeid": "53d4c310-d6d4-11e8-9eb1-0242ac150004",
+            "arches_nodeid": "d571d526-d6dd-11e8-a86c-0242ac150004",
             "arches_node_name": "Description",
             "file_field_name": "Description",
             "data_type": "string",
