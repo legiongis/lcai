@@ -21,6 +21,8 @@ class Command(BaseCommand):
                                  '\'full\'=Loads reference data and resource graphs.')
 
     def handle(self, *args, **options):
+        print("DEPRECATED: This command is handled with a bash script now...")
+        exit()
         if options['operation'] == 'full':
             call_command('packages',operation="setup_db")
             self.load_reference_data()

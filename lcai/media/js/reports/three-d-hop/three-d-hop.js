@@ -224,6 +224,28 @@ define([
                 }
             }
             cleanEmptyProperties(config);
+
+            // hard-code the trackball to enable pan trackball.
+            // Technically this could be stored in the model but that config passing doesn't seem
+            // fully operational (or I just don't get it)
+            config.trackball = {
+                type: TurntablePanTrackball,
+                trackOptions: {
+                    startPhi      : 0.0,
+                    startTheta    : 0.0,
+                    startDistance : 2.5,
+                    startPanX     : 0.0,
+                    startPanY     : 0.0,
+                    startPanZ     : 0.0,
+                    minMaxPhi     : [-180, 180],
+                    minMaxTheta   : [-10.0, 50.0],
+                    minMaxDist    : [0.5, 3.0],
+                    minMaxPanX    : [-0.5, 0.5],
+                    minMaxPanY    : [-0.6, 0.6],
+                    minMaxPanZ    : [-0.3, 0.3],
+                }
+            }
+
             if (config.meshes) {
                 var threeDHopFileCount = Object.keys(config.meshes).length;
                 if (threeDHopFileCount > 0) {
