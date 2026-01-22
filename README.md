@@ -32,3 +32,20 @@ The graphs, CSV load files, and reference data are stored in the [legiongis/lcai
 The Basin and Range National Monument 3D Documentation Pilot Study team was led by [Architectural Resources Group](https://www.argsf.com). The [Center of Preservation Research](https://www1.ucdenver.edu/centers/center-of-preservation-research) at the University of Colorado, Denver completed the 3D data collection. [G2 Archaeology](http://www.g2archaeology.com/) and the [Nevada Rock Art Foundation](http://www.bradshawfoundation.com/nevada/index.php) selected the sample sites and features, and provided project support. [Legion GIS](https://legiongis.com) led the Arches development with assistance from [Coherit Associates](http://coherit.com) who created the custom front-end design. All work was overseen by the Bureau of Land Management.
 
 The project's source code was based heavily on the [arches-3d](https://github.com/globaldigitalheritage/arches-3d) project built on Arches 4.4 by @veuncent at [Global Digital Heritage](https://globaldigitalheritage.org/). This upgrade to Arches 6.1 was performed by @mradamcox.
+
+## Dev notes
+
+### Mapbox basemaps
+
+To update a basemap style:
+
+1. Update data in Mapbox as needed (either upload a new file to a tileset or modify an existing dataset)
+2. Update the style in Mapbox
+  - The app uses the `LCAI-Outdoors` and `Outdoors` styles
+3. Save and re-publish the style
+4. Download the zip of the style (from the Share menu)
+5. Extract all of the files from the zip into the appropriate `pkg/map_layers/mapbox_spec_json/basemaps/` subdirectory.
+
+To deploy in dev, just re-run the initial data setup and the modified map style will be used.
+
+To deploy in production, find the relevant extracted content and place it directly into the Map Source and Map Layer objects using the Django admin.
