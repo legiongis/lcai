@@ -1,7 +1,7 @@
 #! /usr/bin/bash
 
-psql -U postgres -c "DROP DATABASE lcai WITH (FORCE)"
-psql -U postgres -c "CREATE DATABASE lcai"
+psql -U postgres -h localhost -c "DROP DATABASE lcai WITH (FORCE)"
+psql -U postgres -h localhost -c "CREATE DATABASE lcai"
 
 python manage.py es delete_indexes
 python manage.py es setup_indexes
