@@ -16,7 +16,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Publication Event",
                     "nodegroup_id": "601c8714-d780-11e8-918f-0242ac120004",
                     "sortorder": 3,
@@ -99,7 +99,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Enter the CAD resource's title, description and creation date.",
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Summary",
                     "nodegroup_id": "601cdea8-d780-11e8-918f-0242ac120004",
                     "sortorder": 0,
@@ -118,7 +118,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Enter information for identifiers of the resource from other external sources.",
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "External Identifier",
                     "nodegroup_id": "601cf078-d780-11e8-918f-0242ac120004",
                     "sortorder": 5,
@@ -144,7 +144,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Select one or multiple images and a thumbnail representing that image (collection)",
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Documents and Reports",
                     "nodegroup_id": "cbf638f2-eb46-11e8-af25-0242ac160004",
                     "sortorder": 1,
@@ -599,7 +599,7 @@
             ],
             "graphid": "601c830e-d780-11e8-918f-0242ac120004",
             "iconclass": "fa fa-file-text-o",
-            "is_editable": false,
+            "is_editable": true,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -1202,9 +1202,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 15.14 (Ubuntu 15.14-1.pgdg24.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, 64-bit",
+        "db": "PostgreSQL 15.15 (Ubuntu 15.15-1.pgdg24.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, 64-bit",
         "git hash": "eae7c6228 2022-06-16 17:04:09 -0700",
         "os": "Linux",
-        "os version": "6.14.0-1012-aws"
+        "os version": "6.14.0-1018-aws"
     }
 }
