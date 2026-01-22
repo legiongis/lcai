@@ -23,9 +23,6 @@ TEMPLATES[0]['DIRS'].append(os.path.join(APP_ROOT, 'functions', 'templates'))
 TEMPLATES[0]['DIRS'].append(os.path.join(APP_ROOT, 'widgets', 'templates'))
 TEMPLATES[0]['DIRS'].insert(0, os.path.join(APP_ROOT, 'templates'))
 
-PLAUSIBLE_SITE_DOMAIN = None
-TEMPLATES[0]['OPTIONS']['context_processors'].append('lcai.context_processors.site_data')
-
 LOCALE_PATHS.append(os.path.join(APP_ROOT, 'locale'))
 
 # SECURITY WARNING: keep the secret key used in production secret!
