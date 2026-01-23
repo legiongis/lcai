@@ -1,0 +1,300 @@
+{
+ "business_data": {
+  "resources": [
+   {
+    "resourceinstance": {
+     "graph_id": "9b591814-c0f2-11e8-9c8c-0242ac120004",
+     "legacyid": "a0a0a0a0-0001-0000-0000-000000000000",
+     "resourceinstanceid": "a0a0a0a0-0001-0000-0000-000000000000"
+    },
+    "tiles": [
+     {
+      "data": {
+       "ae3c97d4-d138-11e8-8f5d-0242ac1a0004": "Paiute Rocks - Full Site",
+       "ae3c9950-d138-11e8-8f5d-0242ac1a0004": "26LN356 was originally recorded in the late 1960s by the Desert Research Institute (Fowler and Sharrock 1973) and was again recorded in the 1970s by the University of California, Berkeley (Heizer and Hester 1974). The many rock art panels at this site were recorded by the Nevada Rock Art Foundation (NRAF) in 2005 (Woody et al. 2005) and updated in 2010 (Quinlan et al. 2010).<br><br>The roughly 100-x-90-m site is situated in an area with large, tuff monoliths, with surrounding sediments composed of decomposing tuffaceous gravels. Vegetation in the area includes sagebrush, blackbrush, bunchgrass, ephedra, and scattered pinyon-juniper trees. ASM's current visit found the rock art well-documented and also identified and recorded a sparse habitation deposit. In its current state, 26LN356 is classified as a rock art and complex habitation site. Eighty-two rock art panels are present (all previously identified), with habitation remains including a bedrock milling station (Feature 1), a CCS biface (Artifact 1), and 25 pieces of CCS and obsidian debitage. Two projectile point fragments found by NRAF in 2005 were not relocated during their subsequent update or during the current visit. Unfortunately, this site has been subjected to visitation, vandalism, and looting for decades; today it displays these effects in the form of roads, graffiti, campfire remnants, and discarded refuse. The site has also been affected by erosion, wildlife trampling, and by the spalling/weathering of the rock faces. It remains in fair condition.",
+       "fccbec51-f429-11e9-89bc-94659cf754d0": null
+      },
+      "nodegroup_id": "ae3c907c-d138-11e8-8f5d-0242ac1a0004",
+      "parenttile_id": null,
+      "provisionaledits": null,
+      "resourceinstance_id": "a0a0a0a0-0001-0000-0000-000000000000",
+      "sortorder": 0,
+      "tileid": "7588a106-ec1d-48ea-954f-f18e82758904"
+     },
+     {
+      "data": {
+       "6011a7f6-1e4c-11ed-9712-2f01f317605d": null,
+       "9b59568a-c0f2-11e8-9c8c-0242ac120004": null,
+       "9b5964ae-c0f2-11e8-9c8c-0242ac120004": "41722438-4e84-45ed-a3b5-f12e04dcfd5c",
+       "9b5967ba-c0f2-11e8-9c8c-0242ac120004": [
+        "8324c530-452b-4ff8-b92c-f09a910fb74c"
+       ]
+      },
+      "nodegroup_id": "9b594104-c0f2-11e8-9c8c-0242ac120004",
+      "parenttile_id": null,
+      "provisionaledits": null,
+      "resourceinstance_id": "a0a0a0a0-0001-0000-0000-000000000000",
+      "sortorder": 0,
+      "tileid": "4bcc83d1-bae1-4d3f-8232-bae07f15a64b"
+     },
+     {
+      "data": {
+       "bedc2c46-1e21-11ed-9712-2f01f317605d": "https://lcai-assets.s3.us-west-2.amazonaws.com/pointclouds/PaiuteRocks/cloud.js"
+      },
+      "nodegroup_id": "bedc2c46-1e21-11ed-9712-2f01f317605d",
+      "parenttile_id": null,
+      "provisionaledits": null,
+      "resourceinstance_id": "a0a0a0a0-0001-0000-0000-000000000000",
+      "sortorder": 0,
+      "tileid": "ae89e0fd-3bc1-44ef-ba85-e5ad78a1bc17"
+     }
+    ]
+   },
+   {
+    "resourceinstance": {
+     "graph_id": "9b591814-c0f2-11e8-9c8c-0242ac120004",
+     "legacyid": "b0b0b0b0-0001-0000-0000-000000000000",
+     "resourceinstanceid": "b0b0b0b0-0001-0000-0000-000000000000"
+    },
+    "tiles": [
+     {
+      "data": {
+       "ae3c97d4-d138-11e8-8f5d-0242ac1a0004": "Red Pigment - Full Site",
+       "ae3c9950-d138-11e8-8f5d-0242ac1a0004": "26LN4232 is an extensive, linear rock art and complex habitation site covering a 373-x-65-m area within a narrow southwest to northeast-trending canyon. The lower, northeastern portion of the site was recorded by White (1997 and 1999) and Lee (2002), who identified a rockshelter, several bedrock milling stations, and over 20 rock art panels. ASM Affiliates, Inc. revisited the site in 2014 and found the complex to be more extensive than previously recorded, reaching a couple of hundred meters up the canyon to another cluster of rock art panels. As currently mapped, the site contains three major zones of rock art panels within a deep, narrow and rocky canyon. The upper two zones have very little sediment, that present consisting of recent, tuff-derived alluvium. The lowest zone of rock art (visited byWhite and Lee) spreads from the canyon out beyond its mouth, incorporating a small alluvial flat. Vegetation throughout the area is limited to pinyon-juniper woodland associates and willows. Ground visibility is restricted by the presence of bedrock outcrops and vegetation, estimated at 75 percent where stabilized soils occur.<br><br>The current boundaries of 26LN4232 include at least 60 rock art features (Features 1-23, 25-32, 34-42, 45-48, and 50-65) and five bedrock milling stations (Features 24, 33, 43, 44, and 49). At least two of the rock art panels exhibit both petroglyphs and pictographs (Features 19 and 47), and one panel exhibits only pictographs (Feature 42). Features 1 through 23, 51, and 58-65 represent newly recorded rock art features, located in the southwestern portion of the site. Rock art features numbered from 25-50 and 52-57 are panels previously documented byWhite (1999) and Lee (2002). All were mapped but only a sample of them photographed. The rockshelter identified byWhite and Lee is designated Feature 43, a boulder overhang located at the lowest, northeast end of the site. It measures 4 m wide, 2.6 m deep, and has a ~2-m tall entrance; a single milling slick occurs on a boulder just beyond the shelter apron. A midden deposit occurs inside the shelter and extends ~5 m beyond the entrance to the east, and an associated artifact scatter extends another 10 m northeast of the midden. Flakes of CCS, bits of charcoal, and faunal bone were observed in the shelter. Artifacts associated with Feature 43 are the only artifacts observed anywhere within the site area; those outside the shelter include two CCS middle-stage bifaces (Artifacts 2 and 3), one Great Basin Brown Ware rim sherd (Artifact 1), and an estimated 80 pieces of debitage. The shelter was tested byWhite in 1999; see Feature 43 description below for details.<br><br>All in all, this site remains in good condition. None of its rock art panels are excessively exfoliated, and only one appears to have been intentionally defaced (by shooting). The midden at Feature 43 appears intact other than the small test excavation conducted byWhite (1999) and looks to still contain dateable organic remains and timesensitive artifacts.",
+       "fccbec51-f429-11e9-89bc-94659cf754d0": null
+      },
+      "nodegroup_id": "ae3c907c-d138-11e8-8f5d-0242ac1a0004",
+      "parenttile_id": null,
+      "provisionaledits": null,
+      "resourceinstance_id": "b0b0b0b0-0001-0000-0000-000000000000",
+      "sortorder": 0,
+      "tileid": "1820f841-785e-4d82-8cd1-cffd002efc95"
+     },
+     {
+      "data": {
+       "6011a7f6-1e4c-11ed-9712-2f01f317605d": null,
+       "9b59568a-c0f2-11e8-9c8c-0242ac120004": null,
+       "9b5964ae-c0f2-11e8-9c8c-0242ac120004": "41722438-4e84-45ed-a3b5-f12e04dcfd5c",
+       "9b5967ba-c0f2-11e8-9c8c-0242ac120004": [
+        "8324c530-452b-4ff8-b92c-f09a910fb74c"
+       ]
+      },
+      "nodegroup_id": "9b594104-c0f2-11e8-9c8c-0242ac120004",
+      "parenttile_id": null,
+      "provisionaledits": null,
+      "resourceinstance_id": "b0b0b0b0-0001-0000-0000-000000000000",
+      "sortorder": 0,
+      "tileid": "a85c79e4-8398-4f3a-ad8c-1f2df687560c"
+     },
+     {
+      "data": {
+       "bedc2c46-1e21-11ed-9712-2f01f317605d": "https://lcai-assets.s3.us-west-2.amazonaws.com/pointclouds/RedPigment/cloud.js"
+      },
+      "nodegroup_id": "bedc2c46-1e21-11ed-9712-2f01f317605d",
+      "parenttile_id": null,
+      "provisionaledits": null,
+      "resourceinstance_id": "b0b0b0b0-0001-0000-0000-000000000000",
+      "sortorder": 0,
+      "tileid": "9b066949-cb9c-4174-ae30-dde1a3fb2558"
+     }
+    ]
+   },
+   {
+    "resourceinstance": {
+     "graph_id": "9b591814-c0f2-11e8-9c8c-0242ac120004",
+     "legacyid": "c0c0c0c0-0001-0000-0000-000000000000",
+     "resourceinstanceid": "c0c0c0c0-0001-0000-0000-000000000000"
+    },
+    "tiles": [
+     {
+      "data": {
+       "ae3c97d4-d138-11e8-8f5d-0242ac1a0004": "Crescent City - Full Site",
+       "ae3c9950-d138-11e8-8f5d-0242ac1a0004": "26LN7526 is an expansive multicomponent site consisting of a prehistoric basic habitation deposit and the historic townsite of Crescent Spring/Crescent City. The site encompasses the floor and lower slopes of a broad drainage basin on the west side of the Pahranagat Range; tuff and limestone outcrops are abundant and slopes are dissected by many drainages, creating a deposit of mixed alluvium across the basin floor. The site lies within a dense pinyonjuniper woodland vegetation community that has a minimal understory, allowing for reasonable ground visibility (~75 percent).<br><br>The prehistoric component contains one stacked rock cache (Feature 7) and an extremely widespread artifact deposit that varies greatly in density. Ten discrete accumulations of artifacts were identified along the southern and eastern edges of the site (Concentrations 1-10); see end of form for details. Beyond the concentrations, the remainder of the prehistoric site inventory consists of one CCS Elko Corner-notched point (Artifact 116), two Elko series points (Artifacts 84 and 129), an obsidian untypable dart point (Artifact 19), two CCS Rose Spring projectile points (Artifact 83 and 114), two CCS untypable points (Artifacts 82 and 94), a total of 34 bifaces (Artifacts 2, 11-13, 15- 17, 20, 23, 24, 26-29, 35, 41, 44-46, 48, 49, 61, 79-81, 95, 99, 100-102, 106, 107, 115, and 117), two cores (Artifacts 6 and 22), three simple flake tools (Artifact 14, 96, and 124), nine millingstones (Artifacts 25, 36, 47, 97, 98 103-105, and 108), a granitic handstone (Artifact 93), and more than 10,000 pieces of quartzite, CCS, and obsidian debitage.<br><br>The historic component represents the substantial mining camp that settled at Crescent Spring in the 1860s. The most prominent features at the site are a large mill pad (Feature 21) with a flue leading up to a 60 ft tall brick chimney (Feature 20). These elements may have been constructed by the Alameda Silver Mining Company during their initial investment in the nearby List Mine in 1866 and 1867. Brick concentrations near the mill and chimney may be construction-related byproducts (Features 13, 19, 22). A large ore dump (Feature 23) near the mill and chimney as well as a possible assay or cuppeling furnace (Feature 25) are some indications that ore processing took place on site. Elsewhere, a wide range of living and working areas is represented by platforms (Features 12 and 26), dugouts (Features 32 and 34), rock or cut stone house foundations (Feature 15, 18, 27, 35, 36, 38, 40, and 41), a possible cellar or well wall (Feature 17), and a stone cabin (Feature 46). The site also has several rock alignments of unknown function that are likely of historic age (Features 1-5, and 8-10), two pits (Features 14 and 47), a berm (Feature 37), various rock cairns (Feature 11, 42, and 48), and a historic stacked rock cache (Feature 16). Several roads are also evident, including the road that loops around the townsite (Feature 45), one leading up to the stone cabin (Feature 44), and a short ditch leading up to a subterranean cellar (Feature 43). A retaining wall (Feature 39) supports the side of one of the roads. There is only one discrete refuse deposit (Feature 33) but a wide variety of historic artifacts is spread across the townsite. Altogether, these items span both domestic and work spheres. Diagnostic food and drink containers include a kick-up bottle base (Artifact 126), Atrasks Ointment bottle (Artifact 127), aqua glass flakes (Artifact 125), Drake's Plantation bitters bottle fragment (Artifact 132), a Lea & Perrins bottle (Artifact 135), applied bottle finishes (Artifacts 131 and 134), and a stoneware Hartley jam jar (Artifact 133). Work-related artifacts include a tractor clutch link (Artifact 136) and a crucible fragment (Artifact 128). A metal button (Artifact 21) was the only clothing-item noted on site. Diagnostic artifacts associated with the mining and townsite features show a general production range that is consistent with occupation of Crescent Spring from the 1860s through the 1910s.<br><br>In addition, the western part of the site contains features and artifacts related to use of Crescent Spring for ranching and recreation purposes throughout the twentieth century. A large water tank and associated trough (Feature 30), two circular rock concentrations (Features 28 and 29), and a campfire ring (Feature 31) are all associated with twentieth century artifacts including sanitary cans and hole-in-top milk cans that indicate use of this area between the 1930s and 1970s.<br><br>Both archaeological components at this site remain in good physical condition despite impacts from cattle trampling, camping, vehicle traffic, artifact collecting, and vandalism. Two BLM ARPA signs are posted at the west end of the site but are deteriorated. Artifacts 17 (Obsidian Sample 12), 19 (Obsidian Sample 13), and 124 (Obsidian Sample 20) as well as thirty-one obsidian flakes were collected for laboratory analysis and will be curated at the Nevada State Museum in Carson City, Nevada. Thirteen obsidian flakes were collected from the general site area (Obsidian Samples 1-11 and 14-15) and 18 were collected from Concentration 5 (Obsidian Samples 16 -19 and 21-34). ",
+       "fccbec51-f429-11e9-89bc-94659cf754d0": null
+      },
+      "nodegroup_id": "ae3c907c-d138-11e8-8f5d-0242ac1a0004",
+      "parenttile_id": null,
+      "provisionaledits": null,
+      "resourceinstance_id": "c0c0c0c0-0001-0000-0000-000000000000",
+      "sortorder": 0,
+      "tileid": "3c008b71-7f7a-4c50-9f85-d45dfda8afa5"
+     },
+     {
+      "data": {
+       "6011a7f6-1e4c-11ed-9712-2f01f317605d": null,
+       "9b59568a-c0f2-11e8-9c8c-0242ac120004": null,
+       "9b5964ae-c0f2-11e8-9c8c-0242ac120004": "41722438-4e84-45ed-a3b5-f12e04dcfd5c",
+       "9b5967ba-c0f2-11e8-9c8c-0242ac120004": [
+        "8324c530-452b-4ff8-b92c-f09a910fb74c"
+       ]
+      },
+      "nodegroup_id": "9b594104-c0f2-11e8-9c8c-0242ac120004",
+      "parenttile_id": null,
+      "provisionaledits": null,
+      "resourceinstance_id": "c0c0c0c0-0001-0000-0000-000000000000",
+      "sortorder": 0,
+      "tileid": "23bd6f7e-2462-4dfc-9866-8866eff0d0fb"
+     },
+     {
+      "data": {
+       "bedc2c46-1e21-11ed-9712-2f01f317605d": "https://lcai-assets.s3.us-west-2.amazonaws.com/pointclouds/CrescentCity/cloud.js"
+      },
+      "nodegroup_id": "bedc2c46-1e21-11ed-9712-2f01f317605d",
+      "parenttile_id": null,
+      "provisionaledits": null,
+      "resourceinstance_id": "c0c0c0c0-0001-0000-0000-000000000000",
+      "sortorder": 0,
+      "tileid": "a7efa2f3-d561-4e87-9883-f696d3a65631"
+     }
+    ]
+   },
+   {
+    "resourceinstance": {
+     "graph_id": "9b591814-c0f2-11e8-9c8c-0242ac120004",
+     "legacyid": "c0c0c0c0-0002-0000-0000-000000000000",
+     "resourceinstanceid": "c0c0c0c0-0002-0000-0000-000000000000"
+    },
+    "tiles": [
+     {
+      "data": {
+       "ae3c97d4-d138-11e8-8f5d-0242ac1a0004": "Crescent City - Cabin",
+       "ae3c9950-d138-11e8-8f5d-0242ac1a0004": "The Crescent City Stone Cabin (SHPO Resource # B17589) is a one-story, two-room stone cabin located on a gently south-trending slope in an area vegetated with pinyon, juniper, small sagebrush, ephedra, and creosote. It lies within multicomponent site 26LN7526, the historic component of which is the Crescent City mining camp (part of the Pahranagat Mining District), and was originally recorded by ASM Affiliates in 2013 as Feature 46 of that site. The cabin is roughly rectangular in plan, except for a projecting room at the southeast corner that gives it an irregular shape. The cabin measures approximately 31ft x 21ft, with its long axis oriented north/south, and sits on a level dirt pad dug partially into the slope. The primary elevation faces south.<br>The building is constructed of undressed native stone slabs with chinking of mud and small rocks, and has straight, well-built walls that are approximately 2 feet thick. Portions of some of the walls have collapsed so their total original height and configuration are unknown; the north wall retains an angled gable shape to support the roof structure, and the south wall is presumed to have once been the same. The building's front-gabled roof, which is mostly collapsed with intact remnants restricted to the north portion, is constructed of delimbed pinyon or juniper trunk rafters topped with sediment, supported by two large pinyon vertical posts on the cabin's interior. Large pinyon logs serve as plates atop the stone walls, and the rafters rest on interior crossbeams and uprights; most have no nails or fasteners at all, while others have large wire nails and lengths of baling wire (suggesting later repair/reinforcement). All of the roof members appear to be axe-cut.<br>The small exterior room at the cabin's southeast corner is roughly rectangular and has walls constructed of two rows of native stone with earthen fill in between. Its south elevation is largely collapsed, and no evidence of a roof structure is present aside from several small fragments of galvanized sheet metal.<br>The building's south (primary) elevation is partially collapsed at its eastern part, but the main doorway is intact, comprising an opening in the stone wall without wood framing. It is 3ft 4in wide and its original height is unknown. Short lengths of milled lumber are present in either side of the stone frame, set horizontally within the walls themselves; the one on the west side has a small square nail in it and may have been used to affix the door. Twisted lengths of baling wire are also present. The wire, along with the presence of a board and baling wire gate (lying in the building's interior) suggest the doorway may have been closed off at a later date for use as a corral/stable, or to keep animals out of the building.<br>The east elevation has no doors or windows. Its southern portion is the ancillary exterior room described above.<br>The north (rear) elevation has no doors or windows. The walls are intact, and slope up to form a gable shape to support the roof. A large exterior stone chimney is present at this elevation, projecting from the wall; it is constructed of the same stone as the rest of the building, though most of its mud chinking is deteriorated/missing. The top of the chimney is collapsed and its original height is unknown.<br>The building's west elevation has a 3ft 4in wide x 4ft 4in tall opening, either a window or a short door, topped by a pinyon log lintel/roof plate. No other wood framing is present.<br>The cabin's interior is a single open room with a dirt floor (it is unknown whether a floor lies beneath the loose accumulated sediment). Most of the roof has collapsed into the interior, and is restricted to the northern portion of the room; it is presumed to have once covered the entire house and portions have been removed. A wire and wood gate, collapsed roof members, milled lumber, and a piece of plywood with screws in it lie in the room's northern part. A semicircle of stones in the room's southwest corner indicate the modern placement of a campfire ring.<br>The interior north wall contains a well-constructed integral stone fireplace with a pinyon or juniper limb mantel/lintel. The interior of the fireplace has black discoloration from smoke.",
+       "fccbec51-f429-11e9-89bc-94659cf754d0": null
+      },
+      "nodegroup_id": "ae3c907c-d138-11e8-8f5d-0242ac1a0004",
+      "parenttile_id": null,
+      "provisionaledits": null,
+      "resourceinstance_id": "c0c0c0c0-0002-0000-0000-000000000000",
+      "sortorder": 0,
+      "tileid": "53e33bfa-ce12-4999-8567-2e9e92df1072"
+     },
+     {
+      "data": {
+       "6011a7f6-1e4c-11ed-9712-2f01f317605d": null,
+       "9b59568a-c0f2-11e8-9c8c-0242ac120004": null,
+       "9b5964ae-c0f2-11e8-9c8c-0242ac120004": "41722438-4e84-45ed-a3b5-f12e04dcfd5c",
+       "9b5967ba-c0f2-11e8-9c8c-0242ac120004": [
+        "8324c530-452b-4ff8-b92c-f09a910fb74c"
+       ]
+      },
+      "nodegroup_id": "9b594104-c0f2-11e8-9c8c-0242ac120004",
+      "parenttile_id": null,
+      "provisionaledits": null,
+      "resourceinstance_id": "c0c0c0c0-0002-0000-0000-000000000000",
+      "sortorder": 0,
+      "tileid": "f788db6c-fafa-4650-8b78-7d7c4196bd00"
+     },
+     {
+      "data": {
+       "bedc2c46-1e21-11ed-9712-2f01f317605d": "https://lcai-assets.s3.us-west-2.amazonaws.com/pointclouds/CrescentCityCabin/cloud.js"
+      },
+      "nodegroup_id": "bedc2c46-1e21-11ed-9712-2f01f317605d",
+      "parenttile_id": null,
+      "provisionaledits": null,
+      "resourceinstance_id": "c0c0c0c0-0002-0000-0000-000000000000",
+      "sortorder": 0,
+      "tileid": "e7b79f06-dae6-4187-a96f-38ff7820c4ea"
+     }
+    ]
+   },
+   {
+    "resourceinstance": {
+     "graph_id": "9b591814-c0f2-11e8-9c8c-0242ac120004",
+     "legacyid": "c0c0c0c0-0003-0000-0000-000000000000",
+     "resourceinstanceid": "c0c0c0c0-0003-0000-0000-000000000000"
+    },
+    "tiles": [
+     {
+      "data": {
+       "ae3c97d4-d138-11e8-8f5d-0242ac1a0004": "Crescent City - Mill Chimney",
+       "ae3c9950-d138-11e8-8f5d-0242ac1a0004": "The Crescent City Mill Chimney (SHPO Resource #S2121) is the sole extant architectural remnant of the Crescent/List Mill, established here in 1867 to process the silver ores from the List Mine in the Pahranagat Mining District. It is a tall brick and stone smokestack/chimney located on a north-trending slope in an area vegetated with pinyon, juniper, small sagebrush, ephedra, and creosote. The structure lies within multicomponent site 26LN7526, the historic component of which is the Crescent City mining camp, and was originally recorded by ASM Affiliates in 2013 as Feature 20 of that site. The chimney structure is connected via a buried stone-lined flue to a mill pad (Feature 21) downslope to the north where the mill building once stood. This flue is open near the chimney but is otherwise capped by an arched brick cover running underground.<br>The chimney structure has a rectangular footprint and tapering rectangular shape. Its base (roasting furnace) is constructed of rough-cut native stone slabs held together with mud chinking or a very friable/deteriorated cementitious mortar. It is 9 feet square at the base, which is dug partly into the slope to the north to provide a level surface. The stone tapers to an area 7 feet square above the base, to a height of about 8 feet. Above that, the chimney is constructed of red brick with cement mortar, laid in a common bond pattern. The brick portion of the chimney continues to taper as it rises, reaching a height of approximately 55 feet. The top of the chimney has a square piece of flat iron sheet metal laid horizontally, above which sits a decorative brick cap with whitewashed bricks set at oblique angles to create an ornamental pattern. Two wythes of brick sit above the decorative row, and portions of them are deteriorated and loose. The brick portion of the chimney exhibits multiple small round holes, and a few small rectangular openings appear to have been bricked in later. The structure's brick is wind-blasted and rough-surfaced.<br>The north elevation of the base contains an arched opening of yellow firebricks, some of which have remnants of a glassy blue-green 'glazing' which appears to be the result of overfiring or ore roasting rather than a purposefully applied glaze. One of the firebricks has '1880' scratched into it. Through the arch, the interior of the furnace is visible, displaying the same rough-cut native stone seen on the exterior. Some of the stones exhibit black discoloration from fires.",
+       "fccbec51-f429-11e9-89bc-94659cf754d0": null
+      },
+      "nodegroup_id": "ae3c907c-d138-11e8-8f5d-0242ac1a0004",
+      "parenttile_id": null,
+      "provisionaledits": null,
+      "resourceinstance_id": "c0c0c0c0-0003-0000-0000-000000000000",
+      "sortorder": 0,
+      "tileid": "0cd9815d-e62a-4fc0-bfb8-c0236a3a8d31"
+     },
+     {
+      "data": {
+       "6011a7f6-1e4c-11ed-9712-2f01f317605d": null,
+       "9b59568a-c0f2-11e8-9c8c-0242ac120004": null,
+       "9b5964ae-c0f2-11e8-9c8c-0242ac120004": "41722438-4e84-45ed-a3b5-f12e04dcfd5c",
+       "9b5967ba-c0f2-11e8-9c8c-0242ac120004": [
+        "8324c530-452b-4ff8-b92c-f09a910fb74c"
+       ]
+      },
+      "nodegroup_id": "9b594104-c0f2-11e8-9c8c-0242ac120004",
+      "parenttile_id": null,
+      "provisionaledits": null,
+      "resourceinstance_id": "c0c0c0c0-0003-0000-0000-000000000000",
+      "sortorder": 0,
+      "tileid": "519e5524-151a-4c6b-9bac-3a01e53a4c9f"
+     },
+     {
+      "data": {
+       "bedc2c46-1e21-11ed-9712-2f01f317605d": "https://lcai-assets.s3.us-west-2.amazonaws.com/pointclouds/CrescentCityStack/cloud.js"
+      },
+      "nodegroup_id": "bedc2c46-1e21-11ed-9712-2f01f317605d",
+      "parenttile_id": null,
+      "provisionaledits": null,
+      "resourceinstance_id": "c0c0c0c0-0003-0000-0000-000000000000",
+      "sortorder": 0,
+      "tileid": "6e3e01bd-d498-4f2f-ab2d-f83d9fe82f27"
+     }
+    ]
+   },
+   {
+    "resourceinstance": {
+     "graph_id": "9b591814-c0f2-11e8-9c8c-0242ac120004",
+     "legacyid": "c0c0c0c0-0004-0000-0000-000000000000",
+     "resourceinstanceid": "c0c0c0c0-0004-0000-0000-000000000000"
+    },
+    "tiles": [
+     {
+      "data": {
+       "ae3c97d4-d138-11e8-8f5d-0242ac1a0004": "Crescent City - Mill Chimney and Pad",
+       "ae3c9950-d138-11e8-8f5d-0242ac1a0004": null,
+       "fccbec51-f429-11e9-89bc-94659cf754d0": null
+      },
+      "nodegroup_id": "ae3c907c-d138-11e8-8f5d-0242ac1a0004",
+      "parenttile_id": null,
+      "provisionaledits": null,
+      "resourceinstance_id": "c0c0c0c0-0004-0000-0000-000000000000",
+      "sortorder": 0,
+      "tileid": "4d41b9c7-1073-4050-9188-9212a428cda1"
+     },
+     {
+      "data": {
+       "6011a7f6-1e4c-11ed-9712-2f01f317605d": null,
+       "9b59568a-c0f2-11e8-9c8c-0242ac120004": null,
+       "9b5964ae-c0f2-11e8-9c8c-0242ac120004": "41722438-4e84-45ed-a3b5-f12e04dcfd5c",
+       "9b5967ba-c0f2-11e8-9c8c-0242ac120004": [
+        "8324c530-452b-4ff8-b92c-f09a910fb74c"
+       ]
+      },
+      "nodegroup_id": "9b594104-c0f2-11e8-9c8c-0242ac120004",
+      "parenttile_id": null,
+      "provisionaledits": null,
+      "resourceinstance_id": "c0c0c0c0-0004-0000-0000-000000000000",
+      "sortorder": 0,
+      "tileid": "287c3b18-6b0b-4f40-9601-8eef5a1a426a"
+     },
+     {
+      "data": {
+       "bedc2c46-1e21-11ed-9712-2f01f317605d": "https://lcai-assets.s3.us-west-2.amazonaws.com/pointclouds/CrescentCityStackAndPad/cloud.js"
+      },
+      "nodegroup_id": "bedc2c46-1e21-11ed-9712-2f01f317605d",
+      "parenttile_id": null,
+      "provisionaledits": null,
+      "resourceinstance_id": "c0c0c0c0-0004-0000-0000-000000000000",
+      "sortorder": 0,
+      "tileid": "8cd2447b-4e38-4922-8fe1-ad84ec9c9c99"
+     }
+    ]
+   }
+  ]
+ }
+}

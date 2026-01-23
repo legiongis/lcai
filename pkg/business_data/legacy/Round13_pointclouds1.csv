@@ -1,0 +1,11 @@
+ResourceID,Title,Site ID,Keyword,Description,3D Model Url,Original File Format Type,Measurement Unit,Cover Image,Thumbnail Image
+ce037e1f-0a39-4c84-97f8-dd0c25b678fe,Kilns - Fenced Area,,,,https://lcai-assets.s3.us-gov-west-1.amazonaws.com/pointclouds/LCAI-KILNS-FENCED AREA/cloud.js,E57,Centimeter,,
+1ebdaa34-d8ae-466b-9b12-73232b48ee23,Kilns - Kilns Only,,,,https://lcai-assets.s3.us-gov-west-1.amazonaws.com/pointclouds/LCAI-KILNS-KILNS ONLY/cloud.js,E57,Centimeter,,
+7d401a1c-d3ae-4a53-b82d-8498e9cc6ca1,Kilns - Rock Shelter,,,,https://lcai-assets.s3.us-gov-west-1.amazonaws.com/pointclouds/LCAI-KILNS-ROCK SHELTER/cloud.js,E57,Centimeter,,
+806ff3fb-1e56-4f0f-b09c-70ba9936ea1b,WRN I - Full Site,,,,https://lcai-assets.s3.us-gov-west-1.amazonaws.com/pointclouds/LCAI-WRN-I-REDUCED/cloud.js,E57,Centimeter,,
+3379776f-f909-4a16-b9e5-3e449410c871,WRN II - Full Site,,,,https://lcai-assets.s3.us-gov-west-1.amazonaws.com/pointclouds/LCAI-WRN-II-REDUCED/cloud.js,E57,Centimeter,,
+1594af92-e616-4617-a1f1-b8b5a1d62c09,WRN III - Full Site,,,,https://lcai-assets.s3.us-gov-west-1.amazonaws.com/pointclouds/LCAI-WRN-III-REDUCED/cloud.js,E57,Centimeter,,
+1540340b-f58e-4e86-9432-facf264a644b,WRN IV - Full Site,,,,https://lcai-assets.s3.us-gov-west-1.amazonaws.com/pointclouds/LCAI-WRN-IV-REDUCED/cloud.js,E57,Centimeter,,
+bf95825c-6b59-4385-8ffe-abc90a11b2ba,WRN V - Full Site,,,,https://lcai-assets.s3.us-gov-west-1.amazonaws.com/pointclouds/LCAI-WRN-V-COMPLETE/cloud.js,E57,Centimeter,,
+6b3a83cf-8997-4645-8865-dea4321060ed,WRN VI - Full Site,,,,https://lcai-assets.s3.us-gov-west-1.amazonaws.com/pointclouds/LCAI-WRN-VI-COMPLETE/cloud.js,E57,Centimeter,,
+19e3ed4b-d675-4ea3-bfec-2e129d91068c,WRN Red - Full Site,,,,https://lcai-assets.s3.us-gov-west-1.amazonaws.com/pointclouds/LCAI-WRN-RED-COMPLETE/cloud.js,E57,Centimeter,,

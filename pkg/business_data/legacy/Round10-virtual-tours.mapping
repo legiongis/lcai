@@ -1,0 +1,63 @@
+{
+    "resource_model_id": "ddf1c942-d145-11e8-897e-0242ac1a0004",
+    "resource_model_name": "Virtual Tour",
+    "nodes": [
+        {
+            "arches_nodeid": "2bf7e032-200b-11ed-b155-87354179b92a",
+            "arches_node_name": "Cloud Storage URL",
+            "file_field_name": "Cloud Storage URL",
+            "data_type": "url",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ddf1e9a4-d145-11e8-897e-0242ac1a0004",
+            "arches_node_name": "Cover Image",
+            "file_field_name": "Cover Image",
+            "data_type": "file-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ddf1e3c8-d145-11e8-897e-0242ac1a0004",
+            "arches_node_name": "Description",
+            "file_field_name": "Description",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "61e2852e-f435-11e9-9953-94659cf754d0",
+            "arches_node_name": "Keyword",
+            "file_field_name": "Keyword",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "0e9fc8a6-18a6-11f0-bec1-10b1df766ff9",
+            "arches_node_name": "Site ID",
+            "file_field_name": "Site ID",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ddf1e878-d145-11e8-897e-0242ac1a0004",
+            "arches_node_name": "Thumbnail Image",
+            "file_field_name": "Thumbnail Image",
+            "data_type": "file-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ddf1e0ee-d145-11e8-897e-0242ac1a0004",
+            "arches_node_name": "Title",
+            "file_field_name": "Title",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ddf1e74c-d145-11e8-897e-0242ac1a0004",
+            "arches_node_name": "Virtual Tours Zip File",
+            "file_field_name": "Virtual Tours Zip File",
+            "data_type": "file-list",
+            "export": true
+        }
+    ]
+}
