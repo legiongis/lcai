@@ -43,7 +43,7 @@
             "arches_nodeid": "f122b840-1fd5-11ed-b155-87354179b92a",
             "arches_node_name": "Cloud Storage URL",
             "file_field_name": "Cloud Storage URL",
-            "data_type": "url",
+            "data_type": "string",
             "export": true
         },
         {
@@ -137,6 +137,13 @@
             "file_field_name": "Keywords",
             "data_type": "concept-list",
             "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "c6cf8622-f80d-11f0-950d-6d63c0e798aa",
+            "arches_node_name": "Locus",
+            "file_field_name": "Locus",
+            "data_type": "string",
             "export": true
         },
         {
@@ -297,6 +304,13 @@
             "export": true
         },
         {
+            "arches_nodeid": "0c65f91a-f80d-11f0-950d-6d63c0e798aa",
+            "arches_node_name": "Site",
+            "file_field_name": "Site",
+            "data_type": "string",
+            "export": true
+        },
+        {
             "arches_nodeid": "8c34182c-18a5-11f0-bec1-10b1df766ff9",
             "arches_node_name": "Site ID",
             "file_field_name": "Site ID",
@@ -357,6 +371,13 @@
             "arches_node_name": "Start Theta",
             "file_field_name": "Start Theta",
             "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "b83d864a-f80d-11f0-950d-6d63c0e798aa",
+            "arches_node_name": "Sub-site",
+            "file_field_name": "Sub-site",
+            "data_type": "string",
             "export": true
         },
         {

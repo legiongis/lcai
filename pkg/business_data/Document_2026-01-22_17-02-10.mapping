@@ -60,7 +60,7 @@
             "export": true
         },
         {
-            "arches_nodeid": "601d46d6-d780-11e8-918f-0242ac120004",
+            "arches_nodeid": "601d09e6-d780-11e8-918f-0242ac120004",
             "arches_node_name": "External Identifier Type",
             "file_field_name": "External Identifier Type",
             "data_type": "concept",
@@ -68,7 +68,7 @@
             "export": true
         },
         {
-            "arches_nodeid": "601d09e6-d780-11e8-918f-0242ac120004",
+            "arches_nodeid": "601d46d6-d780-11e8-918f-0242ac120004",
             "arches_node_name": "External Identifier Type",
             "file_field_name": "External Identifier Type",
             "data_type": "concept",
@@ -109,6 +109,13 @@
             "arches_nodeid": "601d19ea-d780-11e8-918f-0242ac120004",
             "arches_node_name": "Place Description",
             "file_field_name": "Place Description",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "4a2390a0-f80d-11f0-950d-6d63c0e798aa",
+            "arches_node_name": "Site",
+            "file_field_name": "Site",
             "data_type": "string",
             "export": true
         },

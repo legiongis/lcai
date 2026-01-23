@@ -106,6 +106,13 @@
             "export": true
         },
         {
+            "arches_nodeid": "60b41fe2-f80d-11f0-950d-6d63c0e798aa",
+            "arches_node_name": "Site",
+            "file_field_name": "Site",
+            "data_type": "string",
+            "export": true
+        },
+        {
             "arches_nodeid": "e1090e3e-18a5-11f0-bec1-10b1df766ff9",
             "arches_node_name": "Site ID",
             "file_field_name": "Site ID",

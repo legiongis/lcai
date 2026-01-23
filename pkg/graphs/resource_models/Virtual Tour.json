@@ -80,7 +80,7 @@
                     "id": "1a4589c0-18a6-11f0-bec1-10b1df766ff9",
                     "label": "Keyword",
                     "node_id": "61e2852e-f435-11e9-9953-94659cf754d0",
-                    "sortorder": 3,
+                    "sortorder": 4,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000012"
                 },
@@ -98,6 +98,23 @@
                     "label": "Site ID",
                     "node_id": "0e9fc8a6-18a6-11f0-bec1-10b1df766ff9",
                     "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "ddf1da04-d145-11e8-897e-0242ac1a0004",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Site",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "2e6ea6e6-cd31-4ffe-b6d6-76be69edaccc",
+                    "label": "Site",
+                    "node_id": "9210e106-f80d-11f0-950d-6d63c0e798aa",
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -190,7 +207,7 @@
                     "id": "ddf1f02a-d145-11e8-897e-0242ac1a0004",
                     "label": "Description",
                     "node_id": "ddf1e3c8-d145-11e8-897e-0242ac1a0004",
-                    "sortorder": 2,
+                    "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
@@ -246,6 +263,15 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P137_exemplifies",
                     "rangenode_id": "61e2852e-f435-11e9-9953-94659cf754d0"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "ddf1d5ea-d145-11e8-897e-0242ac1a0004",
+                    "edgeid": "b06f5e8c-15f2-4368-9515-528350cff904",
+                    "graph_id": "ddf1c942-d145-11e8-897e-0242ac1a0004",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of",
+                    "rangenode_id": "9210e106-f80d-11f0-950d-6d63c0e798aa"
                 },
                 {
                     "description": null,
@@ -353,7 +379,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "ddf1c942-d145-11e8-897e-0242ac1a0004",
-                    "id": "0ea5d8a3-949c-11f0-bc3b-02553ffbe539"
+                    "id": "c92e95cc-50ec-4d14-88a0-fe9464cc645d"
                 }
             ],
             "graphid": "ddf1c942-d145-11e8-897e-0242ac1a0004",
@@ -392,6 +418,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "ddf1c942-d145-11e8-897e-0242ac1a0004",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -411,6 +438,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "ddf1c942-d145-11e8-897e-0242ac1a0004",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -432,6 +460,7 @@
                     "exportable": false,
                     "fieldname": "",
                     "graph_id": "ddf1c942-d145-11e8-897e-0242ac1a0004",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -444,6 +473,26 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "site",
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "ddf1c942-d145-11e8-897e-0242ac1a0004",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Site",
+                    "nodegroup_id": "ddf1d5ea-d145-11e8-897e-0242ac1a0004",
+                    "nodeid": "9210e106-f80d-11f0-950d-6d63c0e798aa",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E27_Site",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of",
+                    "sortorder": 0
+                },
+                {
                     "alias": "virtual_tours_file_package",
                     "config": null,
                     "datatype": "semantic",
@@ -451,6 +500,7 @@
                     "exportable": false,
                     "fieldname": "",
                     "graph_id": "ddf1c942-d145-11e8-897e-0242ac1a0004",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": true,
                     "issearchable": true,
@@ -470,6 +520,7 @@
                     "exportable": false,
                     "fieldname": "",
                     "graph_id": "ddf1c942-d145-11e8-897e-0242ac1a0004",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -489,6 +540,7 @@
                     "exportable": false,
                     "fieldname": "",
                     "graph_id": "ddf1c942-d145-11e8-897e-0242ac1a0004",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": true,
                     "issearchable": true,
@@ -508,6 +560,7 @@
                     "exportable": false,
                     "fieldname": "",
                     "graph_id": "ddf1c942-d145-11e8-897e-0242ac1a0004",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": true,
                     "issearchable": true,
@@ -527,6 +580,7 @@
                     "exportable": false,
                     "fieldname": "",
                     "graph_id": "ddf1c942-d145-11e8-897e-0242ac1a0004",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -546,6 +600,7 @@
                     "exportable": false,
                     "fieldname": "",
                     "graph_id": "ddf1c942-d145-11e8-897e-0242ac1a0004",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -569,6 +624,7 @@
                     "exportable": false,
                     "fieldname": "",
                     "graph_id": "ddf1c942-d145-11e8-897e-0242ac1a0004",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -592,6 +648,7 @@
                     "exportable": false,
                     "fieldname": "",
                     "graph_id": "ddf1c942-d145-11e8-897e-0242ac1a0004",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": true,
                     "issearchable": true,
@@ -615,6 +672,7 @@
                     "exportable": false,
                     "fieldname": "",
                     "graph_id": "ddf1c942-d145-11e8-897e-0242ac1a0004",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": true,
                     "issearchable": true,
@@ -638,6 +696,7 @@
                 "exportable": false,
                 "fieldname": "",
                 "graph_id": "ddf1c942-d145-11e8-897e-0242ac1a0004",
+                "hascustomalias": false,
                 "is_collector": false,
                 "isrequired": false,
                 "issearchable": true,
@@ -655,9 +714,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 15.15 (Ubuntu 15.15-1.pgdg24.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, 64-bit",
-        "git hash": "eae7c6228 2022-06-16 17:04:09 -0700",
+        "db": "PostgreSQL 15.15 on x86_64-pc-linux-musl, compiled by gcc (Alpine 14.2.0) 14.2.0, 64-bit",
+        "git hash": "8d98d33b3 2022-07-25 15:21:17 -0700",
         "os": "Linux",
-        "os version": "6.14.0-1018-aws"
+        "os version": "6.17.9-76061709-generic"
     }
 }
