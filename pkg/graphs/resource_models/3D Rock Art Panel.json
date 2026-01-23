@@ -2200,8 +2200,8 @@
                         },
                         "descriptor_types": {
                             "description": {
-                                "nodegroup_id": "4b9b3314-d12f-11e8-85df-0242ac1a0004",
-                                "string_template": "<Thumbnail Image>"
+                                "nodegroup_id": "2fe7d85c-d139-11e8-8e63-0242ac1a0004",
+                                "string_template": "<Description>"
                             },
                             "map_popup": {
                                 "nodegroup_id": "2fe7d85c-d139-11e8-8e63-0242ac1a0004",
@@ -2209,7 +2209,7 @@
                             },
                             "name": {
                                 "nodegroup_id": "2fe7d85c-d139-11e8-8e63-0242ac1a0004",
-                                "string_template": "<Title>"
+                                "string_template": "<Site>: <Sub-site> <Locus> <Panel Number>"
                             }
                         },
                         "map_popup": {
@@ -2224,7 +2224,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "36bcaff4-b82f-11e8-8598-0242ac120004",
-                    "id": "62e65f87-5d85-4393-9634-3ca553760b19"
+                    "id": "38064217-6c9d-4d96-960d-60d472d11d5d"
                 }
             ],
             "graphid": "36bcaff4-b82f-11e8-8598-0242ac120004",
