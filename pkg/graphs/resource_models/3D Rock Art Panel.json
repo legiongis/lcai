@@ -3656,7 +3656,7 @@
                 {
                     "alias": "cloud_storage_url",
                     "config": null,
-                    "datatype": "url",
+                    "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
