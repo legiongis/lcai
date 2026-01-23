@@ -154,9 +154,8 @@ define([
                 self.report.get('tiles').forEach(function (tile) {
                     
                     Object.keys(tile.data).forEach(function (key) {
-                    
                         if (key == "f122b840-1fd5-11ed-b155-87354179b92a") {
-                            cloudUrl = tile.data[key].url
+                            cloudUrl = tile.data[key]
                         }
                     });
                 });
