@@ -1,0 +1,5 @@
+ResourceID,Cloud Storage URL,Cover Image,Description,Keyword,Site ID,Thumbnail Image,Title,Virtual Tours Zip File
+23fd43a5-acdc-41bd-0000-7b7728417493,"{'url': 'https://lcai-assets.s3.us-west-2.amazonaws.com/panotours/PaiuteRocks/Paiute+Rocks+Panotour.html', 'url_label': ''}",,"<p>Explore the Petroglyph Rocks site through panoramic photos.</p>
+",,LN356,,Virtual Tour of Petroglyph Rocks,
+23fd43a5-acdc-41bd-0001-7b7728417493,"{'url': 'https://lcai-assets.s3.us-west-2.amazonaws.com/panotours/CrescentCity/Crescent+City+Panotour.html', 'url_label': ''}",,Explore the Crescent City site through panoramic photos.,,LN7526,,Virtual Tour of Crescent City,
+23fd43a5-acdc-41bd-0002-7b7728417493,"{'url': 'https://lcai-assets.s3.us-west-2.amazonaws.com/panotours/RedPigmentCanyon/Red+Pigment+Canyon+Panotour.html', 'url_label': ''}",, Explore Red Pigment Canyon through panoramic photos.,,LN4232,,Virtual Tour of Red Pigment Canyon,
