@@ -1,7 +1,7 @@
 {
     "name": "lcai",
     "dependencies": {
-        "arches": "archesproject/arches#stable/6.1.0",
+        "arches": "archesproject/arches#dev/6.2.x",
         "nvd3": "^1.8.6",
         "three-d-hop": "cnr-isti-vclab/3DHOP#4.2"
     }
