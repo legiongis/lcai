@@ -39,7 +39,7 @@
      },
      {
       "data": {
-       "bedc2c46-1e21-11ed-9712-2f01f317605d": "https://lcai-assets.s3.us-west-2.amazonaws.com/pointclouds/PaiuteRocks/cloud.js"
+       "bedc2c46-1e21-11ed-9712-2f01f317605d": "https://lcai-assets.s3.us-us-gov-west-1.amazonaws.com/pointclouds/PaiuteRocks/cloud.js"
       },
       "nodegroup_id": "bedc2c46-1e21-11ed-9712-2f01f317605d",
       "parenttile_id": null,
@@ -88,7 +88,7 @@
      },
      {
       "data": {
-       "bedc2c46-1e21-11ed-9712-2f01f317605d": "https://lcai-assets.s3.us-west-2.amazonaws.com/pointclouds/RedPigment/cloud.js"
+       "bedc2c46-1e21-11ed-9712-2f01f317605d": "https://lcai-assets.s3.us-us-gov-west-1.amazonaws.com/pointclouds/RedPigment/cloud.js"
       },
       "nodegroup_id": "bedc2c46-1e21-11ed-9712-2f01f317605d",
       "parenttile_id": null,
@@ -137,7 +137,7 @@
      },
      {
       "data": {
-       "bedc2c46-1e21-11ed-9712-2f01f317605d": "https://lcai-assets.s3.us-west-2.amazonaws.com/pointclouds/CrescentCity/cloud.js"
+       "bedc2c46-1e21-11ed-9712-2f01f317605d": "https://lcai-assets.s3.us-us-gov-west-1.amazonaws.com/pointclouds/CrescentCity/cloud.js"
       },
       "nodegroup_id": "bedc2c46-1e21-11ed-9712-2f01f317605d",
       "parenttile_id": null,
@@ -186,7 +186,7 @@
      },
      {
       "data": {
-       "bedc2c46-1e21-11ed-9712-2f01f317605d": "https://lcai-assets.s3.us-west-2.amazonaws.com/pointclouds/CrescentCityCabin/cloud.js"
+       "bedc2c46-1e21-11ed-9712-2f01f317605d": "https://lcai-assets.s3.us-us-gov-west-1.amazonaws.com/pointclouds/CrescentCityCabin/cloud.js"
       },
       "nodegroup_id": "bedc2c46-1e21-11ed-9712-2f01f317605d",
       "parenttile_id": null,
@@ -235,7 +235,7 @@
      },
      {
       "data": {
-       "bedc2c46-1e21-11ed-9712-2f01f317605d": "https://lcai-assets.s3.us-west-2.amazonaws.com/pointclouds/CrescentCityStack/cloud.js"
+       "bedc2c46-1e21-11ed-9712-2f01f317605d": "https://lcai-assets.s3.us-us-gov-west-1.amazonaws.com/pointclouds/CrescentCityStack/cloud.js"
       },
       "nodegroup_id": "bedc2c46-1e21-11ed-9712-2f01f317605d",
       "parenttile_id": null,
@@ -284,7 +284,7 @@
      },
      {
       "data": {
-       "bedc2c46-1e21-11ed-9712-2f01f317605d": "https://lcai-assets.s3.us-west-2.amazonaws.com/pointclouds/CrescentCityStackAndPad/cloud.js"
+       "bedc2c46-1e21-11ed-9712-2f01f317605d": "https://lcai-assets.s3.us-us-gov-west-1.amazonaws.com/pointclouds/CrescentCityStackAndPad/cloud.js"
       },
       "nodegroup_id": "bedc2c46-1e21-11ed-9712-2f01f317605d",
       "parenttile_id": null,
