@@ -1,12 +1,16 @@
-# LCAI
+# Lincoln County Archaeological Initiative - Database and 3d Scan Viewer
 
-[lcai10.legiongis.com](https://lcai10.legiongis.com)
+This repo holds the Arches application that powers the database for the [Lincoln County Archaeological Initiative](https://www.blm.gov/programs/cultural-heritage-and-paleontology/archaeology/what-we-manage/nevada/lincoln-county-archaeological-initiative) (LCAI).
+
+[database.lcai.us](https://database.lcai.us)
 
 Arches version dependency: dev/6.2.x
 
 ## Background
 
-This is an Arches project originally created for the [Lincoln County Archaeological Initiative](https://www.blm.gov/programs/cultural-heritage-and-paleontology/archaeology/what-we-manage/nevada/lincoln-county-archaeological-initiative) as part of their Round 10 funding period. Feldwork performed in 2019 produced a number of different 3d datasets, so this project is both a holding place and public-facing viewer for that content.
+This is an Arches project originally created for the LCAI as part of its Round 10 funding period. Feldwork performed in 2019 produced a number of different 3d datasets, so this project is both a holding place and public-facing viewer for that content.
+
+Another round of scanning was undertaken during the Round 13 funding period, which included an update to this database content (new point clouds and photogrammetry models), a new homepage for the project ([lcai.us](https://lcai.us), and a mobile application developed by [CIMS](https://cims.carleton.ca/).
 
 ## 3d Datasets
 
@@ -17,7 +21,7 @@ Three different types of 3d data are supported in this project. Each one has a g
 - 3d Rock Art Panel
     PLY data processed with [Nexus](http://vcg.isti.cnr.it/nexus/) into NXS
     Report built with [3DHOP](https://www.3dhop.net/)
-- Virtual Tour ( panorama environment)
+- Virtual Tour (panorama environment)
     Multiple 360° images combined using [Panotour](https://www.panotourplugin.com/)
     Report uses an iframe to display the Panotour HTML.
 
@@ -33,7 +37,7 @@ The graphs, CSV load files, and reference data are stored in the [legiongis/lcai
 
 The Basin and Range National Monument 3D Documentation Pilot Study team was led by [Architectural Resources Group](https://www.argsf.com). The [Center of Preservation Research](https://www1.ucdenver.edu/centers/center-of-preservation-research) at the University of Colorado, Denver completed the 3D data collection. [G2 Archaeology](http://www.g2archaeology.com/) and the [Nevada Rock Art Foundation](http://www.bradshawfoundation.com/nevada/index.php) selected the sample sites and features, and provided project support. [Legion GIS](https://legiongis.com) led the Arches development with assistance from [Coherit Associates](http://coherit.com) who created the custom front-end design. All work was overseen by the Bureau of Land Management.
 
-The project's source code was based heavily on the [arches-3d](https://github.com/globaldigitalheritage/arches-3d) project built on Arches 4.4 by @veuncent at [Global Digital Heritage](https://globaldigitalheritage.org/). This upgrade to Arches 6 was performed by @mradamcox.
+The project's source code was based heavily on the [arches-3d](https://github.com/globaldigitalheritage/arches-3d) project built on Arches 4.4 by @veuncent at [Global Digital Heritage](https://globaldigitalheritage.org/). The upgrade to Arches 6 was performed by @mradamcox.
 
 ## Dev notes
 
