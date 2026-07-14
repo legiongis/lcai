@@ -515,7 +515,16 @@ opacity:1
 
 -----------------------------------------------------------------------------*/
 
-.img-login {
+#container.cls-container.arches-login {
+  background-image: url("../img/photos/working.jpg");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+  opacity: .55;
+}
+
+/* No longer needed in 6.2, may be useful in 7.6 though */
+/* .img-login {
     background-image: url("../img/photos/working.jpg");
 }
 
@@ -525,7 +534,7 @@ opacity:1
 
 .img-login-recover {
     background-image: url("../img/photos/working.jpg");
-}
+} */
 
 /*-----------------------------------------------------------------------------
 
@@ -938,8 +947,10 @@ a .search-type-link {
     font-weight: 500;
     padding-right: 10px;
 }
+
 /*-----------------------------------------------------------------------------
 
 - Report overrides see report.css -
 
 -----------------------------------------------------------------------------*/		
+

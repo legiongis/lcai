@@ -1,43 +1,9 @@
-{% load static %}
-{% load template_tags %}
-{% load i18n %}
-<!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="en">
-<!--<![endif]-->
+{% extends 'base-lcai.htm' %}
 
-<head>
-    <title>BRNM 3D</title>
-    {% include 'partials/meta.html' %}
-	<link rel="apple-touch-icon" sizes="180x180" href="{% static 'img/favicon/apple-touch-icon.png' %}">
-	<link rel="icon" type="image/png" sizes="32x32" href="{% static 'img/favicon/favicon-32x32.png' %}">
-	<link rel="icon" type="image/png" sizes="16x16" href="{% static 'img/favicon/favicon-16x16.png' %}">
-	<link rel="manifest" href="{% static 'img/favicon/site.webmanifest' %}">
-    {% include 'partials/css.html' %}
-    <!-- Privacy-friendly analytics by Plausible -->
-<script async src="https://plausible.io/js/pa-Uu7ABXyjDHXSgWhAm8oMH.js"></script>
-<script>
-  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
-  plausible.init()
-</script>
-
-</head>
-<body>
-<main>
-    {% include 'partials/nav.html' %}
+{% block body %}
     {% include 'partials/slider.html' %}
     {% include 'partials/about.html' %}
 	{% include 'partials/process.html' %}
 	{% include 'partials/archaeology.html' %}
 	{% include 'partials/sites.html' %}
-	
-	
-  
-    {% include 'partials/footer.html' %}
-    {% include 'partials/link_to_top.html' %}
-    {% include 'partials/javascript.html' %}
-</main>
-</body>
-</html>
+{% endblock %}
