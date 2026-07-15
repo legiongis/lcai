@@ -1,4 +1,4 @@
-from django.conf.urls import include, url
+from django.urls import include, path
 from django.conf import settings
 from django.conf.urls.static import static
 from django.conf.urls.i18n import i18n_patterns
@@ -6,10 +6,20 @@ from django.conf.urls.i18n import i18n_patterns
 from .views import get_node_values, rockart
 
 urlpatterns = [
-    url(r'^', include('arches.urls')),
-    url(r'^node_values$', get_node_values, name="node_values"),
-    url(r'^rockart', rockart, name='rockart')
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    path('node_values/', get_node_values, name="node_values"),
+    path('rockart/', rockart, name="rockart"),
+]
 
-if settings.SHOW_LANGUAGE_SWITCH is True:
-    urlpatterns = i18n_patterns(*urlpatterns)
+# Ensure Arches core urls are superseded by project-level urls
+urlpatterns.append(path('', include('arches.urls')))
+
+# Adds URL pattern to serve media files during development
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+# Only handle i18n routing in active project. This will still handle the routes provided by Arches core and Arches applications,
+# but handling i18n routes in multiple places causes application errors.
+if settings.ROOT_URLCONF == __name__:
+    if settings.SHOW_LANGUAGE_SWITCH is True:
+        urlpatterns = i18n_patterns(*urlpatterns)
+
+    urlpatterns.append(path("i18n/", include("django.conf.urls.i18n")))
