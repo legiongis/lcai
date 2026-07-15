@@ -5,9 +5,11 @@ Summary: Arches implementation for the Lincoln County Archaeological Initiative
 License: GNU AGPL3
 Requires-Python: <3.13,>=3.10
 Description-Content-Type: text/markdown
-Requires-Dist: arches<7,>=6.2
+License-File: LICENSE
+Requires-Dist: arches<8,>=7
 Requires-Dist: setuptools<=80.9.0
 Requires-Dist: uwsgi~=2.0
+Dynamic: license-file
 
 # Lincoln County Archaeological Initiative - Database and 3d Scan Viewer
 
