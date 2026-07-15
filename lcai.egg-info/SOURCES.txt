@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+lcai/__init__.py
+lcai/celery.py
+lcai/middleware.py
+lcai/settings.py
+lcai/settings_local.py
+lcai/urls.py
+lcai/views.py
+lcai/wsgi.py
+lcai.egg-info/PKG-INFO
+lcai.egg-info/SOURCES.txt
+lcai.egg-info/dependency_links.txt
+lcai.egg-info/requires.txt
+lcai.egg-info/top_level.txt

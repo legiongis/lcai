@@ -3,7 +3,6 @@ Django settings for lcai project.
 """
 
 import os
-import arches
 import inspect
 from django.utils.translation import gettext_lazy as _
 
@@ -44,6 +43,10 @@ ELASTICSEARCH_CUSTOM_INDEXES = []
 
 LOAD_DEFAULT_ONTOLOGY = False
 LOAD_PACKAGE_ONTOLOGIES = True
+
+## override to empty list so arches load_package doesn't revert to
+## loading the default arches branches and/or graphs
+RESOURCE_GRAPH_LOCATIONS = []
 
 DATABASES = {
     "default": {
@@ -245,7 +248,7 @@ SHOW_LANGUAGE_SWITCH = len(LANGUAGES) > 1
 
 try:
     from .settings_local import *
-except ImportError as e:
+except ImportError:
     pass
 
 if LOGIN_REQUIRED_SITEWIDE:
