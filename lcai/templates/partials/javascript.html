@@ -1,9 +1,7 @@
 {% load static %}
-{% load compress %}
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
 
-{% compress js %}
 <!-- JS Global Compulsory -->
 <script src="{% static 'packages/jquery/dist/jquery.min.js' %}"></script>
 <script src="{% static 'packages/jquery-migrate/dist/jquery-migrate.min.js' %}"></script>
@@ -207,4 +205,3 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
 </script>
-{% endcompress %}

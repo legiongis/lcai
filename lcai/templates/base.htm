@@ -17,7 +17,6 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 -->
 {% load static %}
 {% load i18n %}
-{% load compress %}
 
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
@@ -45,9 +44,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 	<link rel="manifest" href="{% static 'img/favicon/site.webmanifest' %}">
 
     {% block css %}
-        {% compress css %}
         <link type="text/x-scss" href="{% static 'css/arches.scss' %}" rel="stylesheet" media="screen">
-    	{% endcompress %}
         {% if app_settings.ACCESSIBILITY_MODE %}
         <link href="{% static 'css/accessibility.css' %}" rel="stylesheet">
         {% endif %}
