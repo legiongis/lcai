@@ -3,8 +3,10 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
 
 <!-- JS Global Compulsory -->
-<script src="{% static 'packages/jquery/dist/jquery.min.js' %}"></script>
-<script src="{% static 'packages/jquery-migrate/dist/jquery-migrate.min.js' %}"></script>
+<!-- <script src="{% static 'packages/jquery/dist/jquery.min.js' %}"></script> -->
+ <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<!-- <script src="{% static 'packages/jquery-migrate/dist/jquery-migrate.min.js' %}"></script> -->
+ <script src="https://code.jquery.com/jquery-migrate-4.0.2.min.js" integrity="sha256-LzsJUf1meVLJnOtz5tjDaNu/2+KYX4BI6ytmi4nkEQU=" crossorigin="anonymous"></script>
 <script src="{% static 'vendor/popper.min.js' %}"></script>
 
 <!-- JS Implementing Plugins -->
@@ -32,18 +34,22 @@
 <script src="{% static 'vendor/revolution-slider/revolution/js/extensions/revolution.extension.video.min.js' %}"></script>
 
 <!-- JS Unify -->
-<script src="{% static 'js/unify/hs.core.js' %}"></script>
-<script src="{% static 'js/unify/components/hs.carousel.js' %}"></script>
-<script src="{% static 'js/unify/components/hs.header.js' %}"></script>
-<script src="{% static 'js/unify/helpers/hs.hamburgers.js' %}"></script>
-<script src="{% static 'js/unify/components/hs.tabs.js' %}"></script>
-<script src="{% static 'js/unify/components/hs.counter.js' %}"></script>
-<script src="{% static 'js/unify/components/hs.go-to.js' %}"></script>
-<script src="{% static 'js/unify/components/hs.modal-window.js' %}"></script>
+<script src="{% static 'vendor/unify/hs.core.js' %}"></script>
+<script src="{% static 'vendor/unify/components/hs.carousel.js' %}"></script>
+<script src="{% static 'vendor/unify/components/hs.header.js' %}"></script>
+<script src="{% static 'vendor/unify/helpers/hs.hamburgers.js' %}"></script>
+<script src="{% static 'vendor/unify/components/hs.tabs.js' %}"></script>
+<script src="{% static 'vendor/unify/components/hs.counter.js' %}"></script>
+<script src="{% static 'vendor/unify/components/hs.go-to.js' %}"></script>
+<script src="{% static 'vendor/unify/components/hs.modal-window.js' %}"></script>
+<!-- 
+<script type="module"> import unify from 'https://cdn.jsdelivr.net/npm/unify@0.9.10/+esm' </script>
+
+<script src="https://cdn.jsdelivr.net/npm/unify@0.9.10/index.min.js"></script> -->
 
 <!-- Cubeportfolio -->
 <script src="{% static 'vendor/cubeportfolio-full/cubeportfolio/js/jquery.cubeportfolio.min.js' %}"></script>
-<script src="{% static 'js/unify/components/hs.cubeportfolio.js' %}"></script>
+<script src="{% static 'vendor/unify/components/hs.cubeportfolio.js' %}"></script>
 
 <!-- JS Customization -->
 <script src="{% static 'js/custom.js' %}"></script>
