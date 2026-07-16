@@ -123,6 +123,24 @@ requires-dist = [
 provides-extras = ["dev"]
 
 [[package]]
+name = "arches-extensions"
+version = "0.1.0"
+source = { editable = "../arches-extensions" }
+dependencies = [
+    { name = "arches" },
+    { name = "setuptools" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "arches", specifier = "<8" },
+    { name = "pdoc", marker = "extra == 'dev'" },
+    { name = "pydoctor", marker = "extra == 'dev'", specifier = ">=23.9.1" },
+    { name = "setuptools", specifier = "<=80.9.0" },
+]
+provides-extras = ["dev"]
+
+[[package]]
 name = "asgiref"
 version = "3.12.1"
 source = { registry = "https://pypi.org/simple" }
@@ -606,6 +624,7 @@ version = "2.0.0"
 source = { editable = "." }
 dependencies = [
     { name = "arches" },
+    { name = "arches-extensions" },
     { name = "setuptools" },
     { name = "uwsgi" },
 ]
@@ -613,6 +632,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "arches", editable = "../arches" },
+    { name = "arches-extensions", editable = "../arches-extensions" },
     { name = "setuptools", specifier = "<=80.9.0" },
     { name = "uwsgi", specifier = "~=2.0" },
 ]

@@ -92,7 +92,7 @@ DATABASES = {
     }
 }
 
-INSTALLED_APPS += ('lcai', )
+INSTALLED_APPS += ('lcai', 'arches_extensions' )
 
 ALLOWED_HOSTS = []
 
