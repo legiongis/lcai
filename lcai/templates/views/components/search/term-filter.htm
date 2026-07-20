@@ -8,16 +8,18 @@
             termSearch: {terms: filter.terms, language: language, tags: filter.tags, placeholder: $root.translations.findAResource}
         "
     ></select>
+    {% comment %}
     <select data-bind="
-        options: languages, 
-        optionsValue: 'code',
-        optionsText: function(item){return item.name + ' (' + item.code + ')'}, 
-        select2Query: {
-            select2Config:{
-                value: language,
-                allowClear: false
+    options: languages, 
+    optionsValue: 'code',
+    optionsText: function(item){return item.name + ' (' + item.code + ')'}, 
+    select2Query: {
+        select2Config:{
+            value: language,
+            allowClear: false
         }},
         attr: {'data-label': $root.translations.language}"
-    ></select></form>
+        ></select></form>
+    {% endcomment %}
 </div>
 <!-- End Term Filter -->

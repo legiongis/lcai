@@ -765,10 +765,11 @@ a .search-type-link {
   padding-left: 10px;
 }
 
-.search-toolbar {
+article.main-search-container .search-map-container .search-toolbar {
   display: flex;
   width: 100%;
   height: unset;
+  padding: 5px;
   background: #726e64;
   border-bottom: solid 1px #bbd1ea;
 }
@@ -921,6 +922,10 @@ a .search-type-link {
     color: #a4d65e;
     font-weight: 500;
     padding-right: 10px;
+}
+
+.search-type-btn-panel {
+  background: none;
 }
 
 
