@@ -509,6 +509,20 @@ opacity:1
 
 }
 
+/* ---- OTHER IMAGES FOR BACKGROUND ----- */
+
+.about-image {
+  background-image: url("../img/photos/about.jpg");
+}
+
+.rockart-general-image {
+  background-image: url("../img/photos/rockart/general.jpg");
+}
+
+.drawings-45d-image {
+  background-image: url("../img/drawings/45d.jpg");
+}
+
 /*-----------------------------------------------------------------------------
 
 - Login pages -
