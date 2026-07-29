@@ -1,8 +1,0 @@
-{
-    "name": "3DHOP Report Template",
-    "templateid": "50000000-0000-0000-0000-000000000005",
-    "component": "reports/three-d-hop/three-d-hop",
-    "componentname": "three-d-hop-report",
-    "description": "A custom report.",
-    "defaultconfig": {"nodes": []}
-}

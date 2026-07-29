@@ -1,0 +1,8 @@
+{
+    "name": "3DHOP Report Template",
+    "templateid": "50000000-0000-0000-0000-000000000005",
+    "component": "reports/three-d-hop",
+    "componentname": "three-d-hop",
+    "description": "Embeds a 3DHOP viewer into the top of the report.",
+    "defaultconfig": {"nodes": []}
+}

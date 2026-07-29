@@ -6,14 +6,11 @@ const viewModel = function(params) {
     params.configKeys = [];
     ReportViewModel.apply(this, [params]);
 
-    const srcUrl = this.report?.report_json?.resource["3D Model Url"].en.value;
-    const viewerUrl = "https://legiongis.github.io/standalone-potree-viewer/";
-    const iframeUrl = srcUrl ? `${viewerUrl}?url=${srcUrl}` : viewerUrl;
-
+    const iframeUrl = this.report?.report_json?.resource["Virtual Tours File Package"]["Cloud Storage URL"].url;
     document.getElementById('header-iframe').setAttribute('src', iframeUrl);
 };
 
-ko.components.register('potree', {
+ko.components.register('virtual-tour', {
     viewModel: viewModel,
     template: template
 });
