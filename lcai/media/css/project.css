@@ -523,6 +523,27 @@ opacity:1
   background-image: url("../img/drawings/45d.jpg");
 }
 
+/* CUSTOM ACCORDIAN */
+
+.site-accordian summary {
+  padding: 1em 0em;
+  font-weight: bold;
+  border-bottom: 3px solid black;
+}
+
+.site-accordian details p {
+  margin: .5em 0;
+}
+
+.site-accordian details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep {
+  0%    {opacity: 0; margin-left: 0px}
+  100%  {opacity: 1; margin-left: 0px}
+}
+
 /*-----------------------------------------------------------------------------
 
 - Login pages -
