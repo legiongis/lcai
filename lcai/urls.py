@@ -1,7 +1,8 @@
-from django.urls import include, path
 from django.conf import settings
-from django.conf.urls.static import static
 from django.conf.urls.i18n import i18n_patterns
+from django.conf.urls.static import static
+from django.urls import include, path
+from django.views.generic import RedirectView
 
 from .views import get_node_values, rockart
 
@@ -12,6 +13,11 @@ urlpatterns = [
 
 # Ensure Arches core urls are superseded by project-level urls
 urlpatterns.append(path('', include('arches.urls')))
+
+# Besides this one because it overwrides the "name" of an arches URL so must come here.
+urlpatterns += [
+    path('lcai-home/', RedirectView.as_view(url='https://lcai.us'), name="home"),
+]
 
 # Adds URL pattern to serve media files during development
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
