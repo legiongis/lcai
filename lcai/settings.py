@@ -155,7 +155,6 @@ DATE_IMPORT_EXPORT_FORMAT = "%Y-%m-%d" # Custom date format for dates imported f
 EXPORT_DATA_FIELDS_IN_CARD_ORDER = True
 
 #Identify the usernames and duration (seconds) for which you want to cache the time wheel
-CACHE_BY_USER = {'anonymous': 3600 * 24}
 TILE_CACHE_TIMEOUT = 600 #seconds
 CLUSTER_DISTANCE_MAX = 5000 #meters
 GRAPH_MODEL_CACHE_TIMEOUT = None
@@ -266,4 +265,4 @@ if LOGIN_REQUIRED_SITEWIDE:
 
 MIDDLEWARE.append(  # this must resolve last MIDDLEWARE entry
     "django_hosts.middleware.HostsResponseMiddleware"
-) 
+)
