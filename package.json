@@ -27,10 +27,7 @@
         "arches-dev-dependencies": "archesproject/arches-dev-dependencies#stable/7.6.20"
     },
     "dependencies": {
-        "arches": "archesproject/arches#stable/7.6.20",
-        "online-3d-viewer": "^0.18.0",
-        "potree-core": "^2.0.15",
-        "three": "^0.185.1"
+        "arches": "archesproject/arches#stable/7.6.20"
     },
     "nodeModulesPaths": {},
     "overrides": {
