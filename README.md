@@ -4,7 +4,7 @@ This repo holds the Arches application that powers the database for the [Lincoln
 
 [database.lcai.us](https://database.lcai.us)
 
-Arches version dependency: dev/6.2.x
+Arches version dependency: stable/7.6.20
 
 ## Background
 
@@ -31,13 +31,13 @@ As much as possible, the original arches-3d reports have been massaged into the 
 
 In order to support asset storage on S3 (and greatly reduce costs without reducing performance), a new "Cloud URL" node was typically added to each graph, and that URL is used to feed the report display.
 
-The graphs, CSV load files, and reference data are stored in the [legiongis/lcai-pkg](https://github.com/legiongis/lcai-pkg) package.
+The graphs, CSV load files, and reference data were previously stored in the [legiongis/lcai-pkg](https://github.com/legiongis/lcai-pkg) package. They are now inside this repo in the `pkg` directory.
 
 ## Credits
 
 The Basin and Range National Monument 3D Documentation Pilot Study team was led by [Architectural Resources Group](https://www.argsf.com). The [Center of Preservation Research](https://www1.ucdenver.edu/centers/center-of-preservation-research) at the University of Colorado, Denver completed the 3D data collection. [G2 Archaeology](http://www.g2archaeology.com/) and the [Nevada Rock Art Foundation](http://www.bradshawfoundation.com/nevada/index.php) selected the sample sites and features, and provided project support. [Legion GIS](https://legiongis.com) led the Arches development with assistance from [Coherit Associates](http://coherit.com) who created the custom front-end design. All work was overseen by the Bureau of Land Management.
 
-The project's source code was based heavily on the [arches-3d](https://github.com/globaldigitalheritage/arches-3d) project built on Arches 4.4 by @veuncent at [Global Digital Heritage](https://globaldigitalheritage.org/). The upgrade to Arches 6 was performed by @mradamcox.
+The project's source code was based heavily on the [arches-3d](https://github.com/globaldigitalheritage/arches-3d) project built on Arches 4.4 by @veuncent at [Global Digital Heritage](https://globaldigitalheritage.org/). The upgrade to Arches 6 (and later, Arches 7) was performed by @mradamcox.
 
 ## Dev notes
 
