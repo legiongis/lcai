@@ -1,6 +1,5 @@
 {% load i18n %}
-
-<link type="text/css" rel="stylesheet" href="{{ STATIC_URL }}css/report.css" />
+{% load static %}
 
 <!-- ko if: !configForm -->
 {% block report %}
@@ -24,7 +23,7 @@
 
        <!-- Metadata -->
 	
-	<div class="report-metadata-section" style="background-image: url('/media/img/background/topo1000_15.png');">
+	<div class="report-metadata-section" class="bg-topo-15">
 	    <div class="container">
 			<div class="row" id="report-body">
 				

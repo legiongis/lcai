@@ -3,8 +3,6 @@ Django settings for lcai project.
 """
 
 import os
-import arches
-import inspect
 from django.utils.translation import gettext_lazy as _
 
 try:
@@ -12,9 +10,28 @@ try:
 except ImportError:
     pass
 
-APP_NAME = 'BRNM 3D'
-APP_ROOT = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-STATICFILES_DIRS =  (os.path.join(APP_ROOT, 'media'),) + STATICFILES_DIRS
+APP_NAME = 'lcai'
+APP_ROOT = os.path.dirname(os.path.abspath(__file__))
+
+# Absolute filesystem path to the directory that will hold user-uploaded files.
+MEDIA_ROOT = os.path.join(APP_ROOT)
+STATIC_ROOT = os.path.join(APP_ROOT, "staticfiles")
+
+# URL that handles the media served from MEDIA_ROOT, used for managing stored files.
+# It must end in a slash if set to a non-empty value.
+MEDIA_URL = '/files/'
+
+# URL prefix for static files.
+# Example: "http://media.lawrence.com/static/"
+STATIC_URL = '/media/'
+
+STATICFILES_DIRS = build_staticfiles_dirs(app_root=APP_ROOT)
+
+WEBPACK_LOADER = {
+    "DEFAULT": {
+        "STATS_FILE": os.path.join(APP_ROOT, "..", "webpack/webpack-stats.json"),
+    },
+}
 
 DATATYPE_LOCATIONS.append('lcai.datatypes')
 FUNCTION_LOCATIONS.append('lcai.functions')
@@ -23,7 +40,7 @@ TEMPLATES[0]['DIRS'].append(os.path.join(APP_ROOT, 'functions', 'templates'))
 TEMPLATES[0]['DIRS'].append(os.path.join(APP_ROOT, 'widgets', 'templates'))
 TEMPLATES[0]['DIRS'].insert(0, os.path.join(APP_ROOT, 'templates'))
 
-LOCALE_PATHS.append(os.path.join(APP_ROOT, 'locale'))
+LOCALE_PATHS.insert(0, os.path.join(APP_ROOT, 'locale'))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'qb63=12-wco2%w2=iz9&%7+(b4#f8!%j+q*n%3ank0om%2k8st'
@@ -32,6 +49,9 @@ SECRET_KEY = 'qb63=12-wco2%w2=iz9&%7+(b4#f8!%j+q*n%3ank0om%2k8st'
 DEBUG = False
 
 ROOT_URLCONF = 'lcai.urls'
+
+ROOT_HOSTCONF = "lcai.hosts"
+DEFAULT_HOST = "lcai"
 
 # a prefix to append to all elasticsearch indexes, note: must be lower case
 ELASTICSEARCH_PREFIX = 'lcai'
@@ -44,6 +64,10 @@ ELASTICSEARCH_CUSTOM_INDEXES = []
 
 LOAD_DEFAULT_ONTOLOGY = False
 LOAD_PACKAGE_ONTOLOGIES = True
+
+## override to empty list so arches load_package doesn't revert to
+## loading the default arches branches and/or graphs
+RESOURCE_GRAPH_LOCATIONS = []
 
 DATABASES = {
     "default": {
@@ -68,7 +92,7 @@ DATABASES = {
     }
 }
 
-INSTALLED_APPS += ('lcai', )
+INSTALLED_APPS += ('lcai', 'arches_extensions' )
 
 ALLOWED_HOSTS = []
 
@@ -77,23 +101,6 @@ LOGIN_REQUIRED_SITEWIDE = False
 
 SYSTEM_SETTINGS_LOCAL_PATH = os.path.join(APP_ROOT, 'system_settings', 'System_Settings.json')
 WSGI_APPLICATION = 'lcai.wsgi.application'
-
-# URL that handles the media served from MEDIA_ROOT, used for managing stored files.
-# It must end in a slash if set to a non-empty value.
-MEDIA_URL = '/files/'
-
-# Absolute filesystem path to the directory that will hold user-uploaded files.
-MEDIA_ROOT =  os.path.join(APP_ROOT)
-
-# URL prefix for static files.
-# Example: "http://media.lawrence.com/static/"
-STATIC_URL = '/media/'
-
-# Absolute path to the directory static files should be collected to.
-# Don't put anything in this directory yourself; store your static files
-# in apps' "static/" subdirectories and in STATICFILES_DIRS.
-# Example: "/home/media/media.lawrence.com/static/"
-STATIC_ROOT = ''
 
 RESOURCE_IMPORT_LOG = os.path.join(APP_ROOT, 'logs', 'resource_import.log')
 DEFAULT_RESOURCE_IMPORT_USER = {'username': 'admin', 'userid': 1}
@@ -148,7 +155,6 @@ DATE_IMPORT_EXPORT_FORMAT = "%Y-%m-%d" # Custom date format for dates imported f
 EXPORT_DATA_FIELDS_IN_CARD_ORDER = True
 
 #Identify the usernames and duration (seconds) for which you want to cache the time wheel
-CACHE_BY_USER = {'anonymous': 3600 * 24}
 TILE_CACHE_TIMEOUT = 600 #seconds
 CLUSTER_DISTANCE_MAX = 5000 #meters
 GRAPH_MODEL_CACHE_TIMEOUT = None
@@ -245,8 +251,18 @@ SHOW_LANGUAGE_SWITCH = len(LANGUAGES) > 1
 
 try:
     from .settings_local import *
-except ImportError as e:
+except ImportError:
     pass
+
+MIDDLEWARE.insert(  # this must resolve to first MIDDLEWARE entry
+    0, 
+    "django_hosts.middleware.HostsRequestMiddleware"
+)
 
 if LOGIN_REQUIRED_SITEWIDE:
     MIDDLEWARE.append('lcai.middleware.LoginRequiredMiddleware')
+
+
+MIDDLEWARE.append(  # this must resolve last MIDDLEWARE entry
+    "django_hosts.middleware.HostsResponseMiddleware"
+)

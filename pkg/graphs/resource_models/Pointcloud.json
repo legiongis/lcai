@@ -13,11 +13,19 @@
                     "description": "",
                     "graph_id": "9b591814-c0f2-11e8-9c8c-0242ac120004",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": "For e.g. the presentation of this resource on overview pages. Cover Images must be exactly 1200 x 800 pixels. Thumbnail Images must be exactly 400 x 400 pixels.",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": "For e.g. the presentation of this resource on overview pages. Cover Images must be exactly 1200 x 800 pixels. Thumbnail Images must be exactly 400 x 400 pixels."
+                    },
                     "is_editable": true,
-                    "name": "Cover & Thumbnail Image",
+                    "name": {
+                        "en": "Cover & Thumbnail Image"
+                    },
                     "nodegroup_id": "88d61ac0-d137-11e8-a8a0-0242ac1a0004",
                     "sortorder": 1,
                     "visible": true
@@ -29,14 +37,24 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": "Stores the file and metadata related to a 3D model",
+                    "description": {
+                        "en": "Stores the file and metadata related to a 3D model"
+                    },
                     "graph_id": "9b591814-c0f2-11e8-9c8c-0242ac120004",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": "Select a zipped pointcloud package and enter its metadata.",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": "Select a zipped pointcloud package and enter its metadata."
+                    },
                     "is_editable": true,
-                    "name": "Pointcloud File",
+                    "name": {
+                        "en": "Pointcloud File"
+                    },
                     "nodegroup_id": "9b594104-c0f2-11e8-9c8c-0242ac120004",
                     "sortorder": 2,
                     "visible": true
@@ -51,11 +69,19 @@
                     "description": null,
                     "graph_id": "9b591814-c0f2-11e8-9c8c-0242ac120004",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Related 3D Panels",
+                    "name": {
+                        "en": "Related 3D Panels"
+                    },
                     "nodegroup_id": "a6273f61-b489-11e9-9385-94659cf754d0",
                     "sortorder": 5,
                     "visible": true
@@ -74,14 +100,24 @@
                         }
                     ],
                     "cssclass": null,
-                    "description": "Describes the title and description of a Potree Pointcloud Resource.",
+                    "description": {
+                        "en": "Describes the title and description of a Potree Pointcloud Resource."
+                    },
                     "graph_id": "9b591814-c0f2-11e8-9c8c-0242ac120004",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": "Enter the resource's title and description",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": "Enter the resource's title and description"
+                    },
                     "is_editable": true,
-                    "name": "Summary",
+                    "name": {
+                        "en": "Summary"
+                    },
                     "nodegroup_id": "ae3c907c-d138-11e8-8f5d-0242ac1a0004",
                     "sortorder": 0,
                     "visible": true
@@ -96,11 +132,19 @@
                     "description": null,
                     "graph_id": "9b591814-c0f2-11e8-9c8c-0242ac120004",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Site Boundary Coordinates",
+                    "name": {
+                        "en": "Site Boundary Coordinates"
+                    },
                     "nodegroup_id": "b49803c0-b477-11e9-8a95-94659cf754d0",
                     "sortorder": 4,
                     "visible": true
@@ -128,11 +172,19 @@
                     "description": null,
                     "graph_id": "9b591814-c0f2-11e8-9c8c-0242ac120004",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "3D Model Url",
+                    "name": {
+                        "en": "3D Model Url"
+                    },
                     "nodegroup_id": "bedc2c46-1e21-11ed-9712-2f01f317605d",
                     "sortorder": 3,
                     "visible": true
@@ -142,15 +194,27 @@
                 {
                     "card_id": "ae3c961c-d138-11e8-8f5d-0242ac1a0004",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Site ID",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "0523a25c-18a6-11f0-bec1-10b1df766ff9",
-                    "label": "Site ID",
+                    "label": {
+                        "en": "Site ID"
+                    },
                     "node_id": "f6595abe-18a5-11f0-bec1-10b1df766ff9",
                     "sortorder": 1,
                     "visible": true,
@@ -160,12 +224,19 @@
                     "card_id": "ae3c961c-d138-11e8-8f5d-0242ac1a0004",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Keyword",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "05253978-18a6-11f0-bec1-10b1df766ff9",
-                    "label": "Keyword",
+                    "label": {
+                        "en": "Keyword"
+                    },
                     "node_id": "fccbec51-f429-11e9-89bc-94659cf754d0",
                     "sortorder": 3,
                     "visible": true,
@@ -174,15 +245,27 @@
                 {
                     "card_id": "bedc2c48-1e21-11ed-9712-2f01f317605d",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Pointcloud Url",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "1823039b-1e29-11ed-9712-2f01f317605d",
-                    "label": "Pointcloud Url",
+                    "label": {
+                        "en": "Pointcloud Url"
+                    },
                     "node_id": "bedc2c46-1e21-11ed-9712-2f01f317605d",
                     "sortorder": 0,
                     "visible": true,
@@ -192,11 +275,18 @@
                     "card_id": "a6273f63-b489-11e9-bca6-94659cf754d0",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Related 3D Panels",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "756b8cdf-b48a-11e9-933a-94659cf754d0",
-                    "label": "Related 3D Panels",
+                    "label": {
+                        "en": "Related 3D Panels"
+                    },
                     "node_id": "a6273f61-b489-11e9-9385-94659cf754d0",
                     "sortorder": null,
                     "visible": true,
@@ -241,7 +331,9 @@
                         "zoom": 10
                     },
                     "id": "7decd3b1-b48a-11e9-bc29-94659cf754d0",
-                    "label": "Site Boundary",
+                    "label": {
+                        "en": "Site Boundary"
+                    },
                     "node_id": "d60b3f40-b477-11e9-aff0-94659cf754d0",
                     "sortorder": null,
                     "visible": true,
@@ -251,12 +343,15 @@
                     "card_id": "88d61e30-d137-11e8-a8a0-0242ac1a0004",
                     "config": {
                         "acceptedFiles": ".png,.jpeg,.jpg,.svg",
+                        "defaultValue": [],
                         "label": "Cover Image",
                         "maxFilesize": "1",
                         "rerender": true
                     },
                     "id": "88d62736-d137-11e8-a8a0-0242ac1a0004",
-                    "label": "Cover Image",
+                    "label": {
+                        "en": "Cover Image"
+                    },
                     "node_id": "88d61fde-d137-11e8-a8a0-0242ac1a0004",
                     "sortorder": 0,
                     "visible": true,
@@ -266,12 +361,15 @@
                     "card_id": "88d61e30-d137-11e8-a8a0-0242ac1a0004",
                     "config": {
                         "acceptedFiles": ".png,.jpeg,.jpg,.svg",
+                        "defaultValue": [],
                         "label": "Thumbnail Image",
                         "maxFilesize": "0.2",
                         "rerender": true
                     },
                     "id": "88d627fe-d137-11e8-a8a0-0242ac1a0004",
-                    "label": "Thumbnail Image",
+                    "label": {
+                        "en": "Thumbnail Image"
+                    },
                     "node_id": "88d62600-d137-11e8-a8a0-0242ac1a0004",
                     "sortorder": 1,
                     "visible": true,
@@ -281,12 +379,15 @@
                     "card_id": "88d61e30-d137-11e8-a8a0-0242ac1a0004",
                     "config": {
                         "acceptedFiles": "",
+                        "defaultValue": [],
                         "label": "Cover Image",
                         "maxFilesize": "2",
                         "rerender": true
                     },
                     "id": "88d628b2-d137-11e8-a8a0-0242ac1a0004",
-                    "label": "Cover Image",
+                    "label": {
+                        "en": "Cover Image"
+                    },
                     "node_id": "88d61ac0-d137-11e8-a8a0-0242ac1a0004",
                     "sortorder": 0,
                     "visible": true,
@@ -296,12 +397,19 @@
                     "card_id": "9b594884-c0f2-11e8-9c8c-0242ac120004",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Measurement Unit",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "9b5969ae-c0f2-11e8-9c8c-0242ac120004",
-                    "label": "Measurement Unit",
+                    "label": {
+                        "en": "Measurement Unit"
+                    },
                     "node_id": "9b5964ae-c0f2-11e8-9c8c-0242ac120004",
                     "sortorder": 1,
                     "visible": true,
@@ -311,12 +419,19 @@
                     "card_id": "9b594884-c0f2-11e8-9c8c-0242ac120004",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Original File Format",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "9b596e2c-c0f2-11e8-9c8c-0242ac120004",
-                    "label": "Original File Format",
+                    "label": {
+                        "en": "Original File Format"
+                    },
                     "node_id": "9b5967ba-c0f2-11e8-9c8c-0242ac120004",
                     "sortorder": 0,
                     "visible": true,
@@ -326,12 +441,15 @@
                     "card_id": "9b594884-c0f2-11e8-9c8c-0242ac120004",
                     "config": {
                         "acceptedFiles": ".zip",
+                        "defaultValue": [],
                         "label": "Octree (Potree) Pointcloud Zip File",
                         "maxFilesize": "100000",
                         "rerender": true
                     },
                     "id": "9b596f94-c0f2-11e8-9c8c-0242ac120004",
-                    "label": "Octree (Potree) Pointcloud Zip File",
+                    "label": {
+                        "en": "Octree (Potree) Pointcloud Zip File"
+                    },
                     "node_id": "9b59568a-c0f2-11e8-9c8c-0242ac120004",
                     "sortorder": 2,
                     "visible": true,
@@ -341,12 +459,15 @@
                     "card_id": "9b594884-c0f2-11e8-9c8c-0242ac120004",
                     "config": {
                         "acceptedFiles": "",
+                        "defaultValue": [],
                         "label": "Information Carrier",
                         "maxFilesize": "200",
                         "rerender": true
                     },
                     "id": "9b5970fc-c0f2-11e8-9c8c-0242ac120004",
-                    "label": "Information Carrier",
+                    "label": {
+                        "en": "Information Carrier"
+                    },
                     "node_id": "9b594104-c0f2-11e8-9c8c-0242ac120004",
                     "sortorder": 1,
                     "visible": true,
@@ -355,15 +476,27 @@
                 {
                     "card_id": "ae3c961c-d138-11e8-8f5d-0242ac1a0004",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Title",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "c738161e-d138-11e8-bab6-0242ac1a0004",
-                    "label": "Title",
+                    "label": {
+                        "en": "Title"
+                    },
                     "node_id": "ae3c97d4-d138-11e8-8f5d-0242ac1a0004",
                     "sortorder": 0,
                     "visible": true,
@@ -372,14 +505,26 @@
                 {
                     "card_id": "ae3c961c-d138-11e8-8f5d-0242ac1a0004",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Description",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "width": "100%"
                     },
                     "id": "c7394160-d138-11e8-bab6-0242ac1a0004",
-                    "label": "Description",
+                    "label": {
+                        "en": "Description"
+                    },
                     "node_id": "ae3c9950-d138-11e8-8f5d-0242ac1a0004",
                     "sortorder": 4,
                     "visible": true,
@@ -388,15 +533,27 @@
                 {
                     "card_id": "ae3c961c-d138-11e8-8f5d-0242ac1a0004",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Site",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "f1e86132-4b0f-47c1-ab53-cf7e8a673b51",
-                    "label": "Site",
+                    "label": {
+                        "en": "Site"
+                    },
                     "node_id": "41e61b3e-f80c-11f0-950d-6d63c0e798aa",
                     "sortorder": 2,
                     "visible": true,
@@ -411,7 +568,9 @@
             },
             "deploymentdate": null,
             "deploymentfile": null,
-            "description": "Describes a model specifically purposed for the Potree 3D viewer",
+            "description": {
+                "en": "Describes a model specifically purposed for the Potree 3D viewer"
+            },
             "edges": [
                 {
                     "description": null,
@@ -609,16 +768,17 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "9b591814-c0f2-11e8-9c8c-0242ac120004",
-                    "id": "5186f9d6-6e80-42d6-bb4d-70f09f79a4b8"
+                    "id": "3d114cf7-114c-48a6-aea3-6a94da4c381f"
                 }
             ],
             "graphid": "9b591814-c0f2-11e8-9c8c-0242ac120004",
             "iconclass": "fa fa-cubes",
             "is_editable": true,
-            "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
-            "name": "Pointcloud",
+            "name": {
+                "en": "Pointcloud"
+            },
             "nodegroups": [
                 {
                     "cardinality": "1",
@@ -660,7 +820,7 @@
             "nodes": [
                 {
                     "alias": "site",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -676,11 +836,12 @@
                     "nodeid": "41e61b3e-f80c-11f0-950d-6d63c0e798aa",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E27_Site",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "3d_pointcloud_url",
-                    "config": null,
+                    "config": {},
                     "datatype": "url",
                     "description": null,
                     "exportable": false,
@@ -696,11 +857,12 @@
                     "nodeid": "6011a7f6-1e4c-11ed-9712-2f01f317605d",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMdig/D13_Digital_Information_Carrier",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P62_depicts",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "images",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -716,12 +878,14 @@
                     "nodeid": "88d61ac0-d137-11e8-a8a0-0242ac1a0004",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E38_Image",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "cover_image",
                     "config": {
                         "activateMax": false,
+                        "imagesOnly": false,
                         "maxFileSize": null,
                         "maxFiles": 1
                     },
@@ -740,12 +904,14 @@
                     "nodeid": "88d61fde-d137-11e8-a8a0-0242ac1a0004",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E38_Image",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P138_represents",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "thumbnail_image",
                     "config": {
                         "activateMax": false,
+                        "imagesOnly": false,
                         "maxFileSize": null,
                         "maxFiles": 1
                     },
@@ -764,11 +930,12 @@
                     "nodeid": "88d62600-d137-11e8-a8a0-0242ac1a0004",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E38_Image",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P138_represents",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "3d_model_file",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -784,12 +951,14 @@
                     "nodeid": "9b594104-c0f2-11e8-9c8c-0242ac120004",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E84_Information_Carrier",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129_is_about",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "3d_pointcloud_zip_file",
                     "config": {
                         "activateMax": false,
+                        "imagesOnly": false,
                         "maxFileSize": null,
                         "maxFiles": 1
                     },
@@ -808,11 +977,12 @@
                     "nodeid": "9b59568a-c0f2-11e8-9c8c-0242ac120004",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMdig/D13_Digital_Information_Carrier",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P62_depicts",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "pointcloud",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -828,7 +998,8 @@
                     "nodeid": "9b595b6c-c0f2-11e8-9c8c-0242ac120004",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object",
                     "parentproperty": "",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "measurement_unit",
@@ -850,7 +1021,8 @@
                     "nodeid": "9b5964ae-c0f2-11e8-9c8c-0242ac120004",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "original_file_format_type",
@@ -872,7 +1044,8 @@
                     "nodeid": "9b5967ba-c0f2-11e8-9c8c-0242ac120004",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "related_3d_panels",
@@ -904,11 +1077,12 @@
                     "nodeid": "a6273f61-b489-11e9-9385-94659cf754d0",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "summary",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -924,11 +1098,12 @@
                     "nodeid": "ae3c907c-d138-11e8-8f5d-0242ac1a0004",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "title",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -944,11 +1119,12 @@
                     "nodeid": "ae3c97d4-d138-11e8-8f5d-0242ac1a0004",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1i_identifies",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "description",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -964,11 +1140,12 @@
                     "nodeid": "ae3c9950-d138-11e8-8f5d-0242ac1a0004",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E62_String",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "location",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -984,11 +1161,12 @@
                     "nodeid": "b49803c0-b477-11e9-8a95-94659cf754d0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "3d_model_url",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -1004,7 +1182,8 @@
                     "nodeid": "bedc2c46-1e21-11ed-9712-2f01f317605d",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMdig/D13_Digital_Information_Carrier",
                     "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L19i_is_stored_on",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "site_boundary",
@@ -1049,11 +1228,12 @@
                     "nodeid": "d60b3f40-b477-11e9-aff0-94659cf754d0",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "site_id",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -1069,7 +1249,8 @@
                     "nodeid": "f6595abe-18a5-11f0-bec1-10b1df766ff9",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E27_Site",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1i_identifies",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "keyword",
@@ -1091,15 +1272,22 @@
                     "nodeid": "fccbec51-f429-11e9-89bc-94659cf754d0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P137_exemplifies",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": {
+                "graph_id": "9b591814-c0f2-11e8-9c8c-0242ac120004",
+                "notes": "update to pointcloud report template",
+                "publicationid": "d8602102-8b95-11f1-a418-02553ffbe539",
+                "published_time": "2026-07-29T16:38:32.178"
+            },
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {
                 "alias": "pointcloud",
-                "config": null,
+                "config": {},
                 "datatype": "semantic",
                 "description": "",
                 "exportable": false,
@@ -1114,18 +1302,21 @@
                 "nodegroup_id": null,
                 "nodeid": "9b595b6c-c0f2-11e8-9c8c-0242ac120004",
                 "ontologyclass": "http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object",
-                "sortorder": 0
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
             },
             "slug": null,
-            "subtitle": "3d pointclouds",
+            "subtitle": {
+                "en": "3d pointclouds"
+            },
             "template_id": "50000000-0000-0000-0000-000000000006",
             "version": ""
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 15.15 on x86_64-pc-linux-musl, compiled by gcc (Alpine 14.2.0) 14.2.0, 64-bit",
-        "git hash": "8d98d33b3 2022-07-25 15:21:17 -0700",
+        "db": "PostgreSQL 15.18 (Ubuntu 15.18-1.pgdg24.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit",
+        "git hash": "796a42cbe 2026-01-12 17:07:30 -0800",
         "os": "Linux",
-        "os version": "6.17.9-76061709-generic"
+        "os version": "7.0.0-1009-aws"
     }
 }

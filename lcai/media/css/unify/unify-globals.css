@@ -1010,7 +1010,7 @@
 /*------------------------------------
   Images Grid
 ------------------------------------*/
-.g-bg-grid-v1--before::before {
+/* .g-bg-grid-v1--before::before {
   background-image: url(../img/bg/grid/wave.png); }
 
 .g-bg-grid-v2--before::after {
@@ -1029,7 +1029,7 @@
   background-image: url(../img/bg/grid/zigzag-left.png); }
 
 .g-bg-grid-v7--before::after {
-  background-image: url(../img/bg/grid/zigzag-right.png); }
+  background-image: url(../img/bg/grid/zigzag-right.png); } */
 
 /*------------------------------------
   Covers
@@ -1067,8 +1067,8 @@
 /*------------------------------------
   Background Patterns
 ------------------------------------*/
-.g-bg-pattern-green {
-  background-image: url("../img/bg/pattern--green.png"); }
+/* .g-bg-pattern-green {
+  background-image: url("../img/bg/pattern--green.png"); } */
 
 /*------------------------------------
   Background Position

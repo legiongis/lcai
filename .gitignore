@@ -1,3 +1,14 @@
+*.egg-info
+.DS_STORE
+.tsconfig-paths.json
+.frontend-configuration-settings.json
+coverage/
+lcai/staticfiles
+webpack
+node_modules
+build
+
+.elasticsearch
 env
 static_root
 
@@ -7,7 +18,6 @@ __pycache__
 lcai/logs
 lcai/export_deliverables
 lcai/cantaloupe/*
-lcai/media/packages
 lcai/uploadedfiles/*
 lcai/settings_local.py
 .vscode/

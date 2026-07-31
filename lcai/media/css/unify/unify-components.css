@@ -16221,7 +16221,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
   background-size: 100% 70%;
   white-space: nowrap; }
 
-.u-marker-bg-primary {
+/* .u-marker-bg-primary {
   background-image: url(../img/bg/marker/marker-bg-primary.png); }
 
 .u-marker-bg-green {
@@ -16237,7 +16237,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
   background-image: url(../img/bg/marker/marker-bg-red.png); }
 
 .u-marker-bg-yellow {
-  background-image: url(../img/bg/marker/marker-bg-yellow.png); }
+  background-image: url(../img/bg/marker/marker-bg-yellow.png); } */
 
 /*------------------------------------
   Tooltips
@@ -21460,8 +21460,9 @@ pre[class*="language-"] .toolbar-item a {
   transition-duration: .4s;
   transition-timing-function: ease-in; }
 
-.js-carousel {
-  background: url(../../assets/img/preloaders/preloader-black.svg) no-repeat 50% 50%; }
+/* .js-carousel {
+  background: url(../../assets/img/preloaders/preloader-black.svg) no-repeat 50% 50%; 
+} */
 
 .js-carousel .js-next,
 .js-carousel .js-prev {

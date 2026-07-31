@@ -1,0 +1,25 @@
+{% load i18n %}
+
+<!-- Term Filter -->
+<div class="term-search-filter"><form autocomplete="off">
+    <select style="width:100%;"
+        data-bind="
+            attr: {'data-label': $root.translations.findAResource, 'aria-label': $root.translations.findAResource},
+            termSearch: {terms: filter.terms, language: language, tags: filter.tags, placeholder: $root.translations.findAResource}
+        "
+    ></select>
+    {% comment %}
+    <select data-bind="
+    options: languages, 
+    optionsValue: 'code',
+    optionsText: function(item){return item.name + ' (' + item.code + ')'}, 
+    select2Query: {
+        select2Config:{
+            value: language,
+            allowClear: false
+        }},
+        attr: {'data-label': $root.translations.language}"
+        ></select></form>
+    {% endcomment %}
+</div>
+<!-- End Term Filter -->
