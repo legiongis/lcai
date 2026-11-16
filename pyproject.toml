@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lcai"
-version = "2.0.0"
+version = "2.0.2"
 description = "Arches implementation for the Lincoln County Archaeological Initiative"
 readme = "README.md"
 license = {text = "GNU AGPL3"}
