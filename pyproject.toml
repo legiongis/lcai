@@ -4,15 +4,15 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lcai"
-version = "2.0.0"
+version = "2.0.2"
 description = "Arches implementation for the Lincoln County Archaeological Initiative"
 readme = "README.md"
 license = {text = "GNU AGPL3"}
 requires-python = ">=3.10,<3.13"
 
 dependencies = [
-    "arches>=7,<8",
-    "arches_extensions",
+    "arches==7.6.28",
+    "arches_extensions==0.1.0-beta",
     "setuptools<=80.9.0",
     "uwsgi~=2.0",
 ]

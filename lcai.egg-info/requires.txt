@@ -1,4 +1,0 @@
-arches<8,>=7
-arches_extensions
-setuptools<=80.9.0
-uwsgi~=2.0
