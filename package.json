@@ -24,10 +24,10 @@
     },
     "devDependencies": {
         "@types/three": "^0.185.1",
-        "arches-dev-dependencies": "archesproject/arches-dev-dependencies#stable/7.6.20"
+        "arches-dev-dependencies": "archesproject/arches-dev-dependencies#stable/7.6.28"
     },
     "dependencies": {
-        "arches": "archesproject/arches#stable/7.6.20"
+        "arches": "archesproject/arches#stable/7.6.28"
     },
     "nodeModulesPaths": {},
     "overrides": {
