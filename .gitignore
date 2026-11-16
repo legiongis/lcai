@@ -1,4 +1,4 @@
-*.egg-info
+lcai.egg-info*
 .DS_STORE
 .tsconfig-paths.json
 .frontend-configuration-settings.json

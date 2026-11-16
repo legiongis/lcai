@@ -1,4 +1,0 @@
-arches==7.6.28
-arches_extensions==0.1.0-beta
-setuptools<=80.9.0
-uwsgi~=2.0
